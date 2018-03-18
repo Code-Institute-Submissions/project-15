@@ -1,4 +1,4 @@
-/* header, footer {
+ /*header, footer {
     background-color: green;
     color: purple;
     padding: 20px;
@@ -7,7 +7,7 @@
 body {
     font-family:"Times New Roman";
     background-color:burlywood;
-    padding-top: 70px;
+   /* padding-top: 70px;
     padding-bottom: 20px;
     display: flex;
 }
