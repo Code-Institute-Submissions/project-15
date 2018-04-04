@@ -2,4 +2,11 @@
 
 body {
     background-color:burlywood;
+    padding-bottom: 40px;
+}
+
+/* Customise the navbar */
+
+.navbar-wrapper {
+    position: absolute;
 }
