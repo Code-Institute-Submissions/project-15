@@ -10,3 +10,34 @@ body {
 .navbar-wrapper {
     position: absolute;
 }
+
+
+/* Customise The Carousel */
+
+.carousel {
+    margin-bottom: 60px;
+}
+
+
+.carousel-control {
+    height: 80px;
+    margin-top: 0;
+    font-size: 120px;
+    background-color: transparent;
+    border: 0;
+
+}
+.carousel img {
+    position: absolute;
+}
+
+
+/* Marketing Content */
+
+
+/* Featurettes */
+
+.featurette-divider {
+    
+}
+
