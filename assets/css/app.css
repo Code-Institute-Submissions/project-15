@@ -24,7 +24,7 @@ ul li a {
     display: block;
 }
 ul li a:hover {
-    background-color: grey;
+    background-color: sienna;
 }
 ul li ul li {
     display: none;
