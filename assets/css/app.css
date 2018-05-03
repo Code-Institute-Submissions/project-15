@@ -3,13 +3,13 @@ body {
     height: 100%;
     margin: 0;
 }
-.navbar-default {
+.navbar-expand-lg {
     background-color: blue;
     padding: 1% 0;
     font-size: 1.2em;
     overflow: hidden;
 } 
-.navbar-default a {
+.navbar-expand-lg a {
     float: left;
     font-size: 16px;
     color: white;
@@ -27,10 +27,10 @@ body {
 .navbar-brand {
  color: white;   
 }
-.navbar-default .navbar-nav li a {
+.navbar-expand-lg .navbar-nav li a {
     color: #CE2A85;
 }
-.navbar-default .navbar-nav li a:hover,
-.navbar-default .navbar-nav li a.active {
+.navbar-expand-lg .navbar-nav li a:hover,
+.navbar-expand-lg .navbar-nav li a.active {
     color: white;
 }
