@@ -1,36 +1,32 @@
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
+
 .navbar-expand-lg {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     background-color: blue;
-    padding: 1% 0;
-    font-size: 1.2em;
     overflow: hidden;
-} 
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
 .navbar-expand-lg a {
-    float: left;
+    float: right;
     font-size: 16px;
-    color: white;
+    color: red;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-.navbar-nav {
-    display: inline;
+.dropdown-toggle {
+    float: right;
 }
-.dropdown {
-    float: left;
-    overflow: hidden;
+
+li a:hover {
+    background-color: gray;
 }
-.navbar-brand {
- color: white;   
+
+li a.active {
+    background-color:greenyellow;
+    color:tomato;
 }
-.navbar-expand-lg .navbar-nav li a {
-    color: #CE2A85;
-}
-.navbar-expand-lg .navbar-nav li a:hover,
-.navbar-expand-lg .navbar-nav li a.active {
-    color: white;
-}
+
