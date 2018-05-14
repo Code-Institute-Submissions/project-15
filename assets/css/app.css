@@ -22,6 +22,9 @@ body {
 }
 .navbar-expand-sm .navbar-nav > li > a {
     color: gray;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
 }
 .navbar-expand-sm .navbar-nav > li > a:hover,
 .navbar-expand-sm .navbar-nav > li > a:focus{
@@ -33,6 +36,9 @@ body {
 }
 .dropdown-menu a {
     color:gray;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
 
 }
 .dropdown-menu a:hover {
