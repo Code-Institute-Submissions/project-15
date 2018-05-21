@@ -17,17 +17,64 @@
               </div>
               <div class="row">
                 <div class="col-sm-4">
-                  <h1>Visit Us</h1>
-                  <p>Vanilialemon</p>
-                  <p>26 Milton Grove</p>
-                  <p>Manchester</p>
-                  <p>United Kingdom</p>
+                  Visit Us<br>
+                  Vanilialemon<br>
+                  26 Milton Grove<br>
+                  Manchester<br>
+                  United Kingdom<br>
                 </div>
-                <div class="col-sm-8">
-                  ....
+                    <form id="contact-form" onsubmit="onSubmit()" name="form">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group">
+                              <label class="required" for="form_name">Name</label>
+                              <input type="text" class="form-control" placeholder="" required="required" name="name" data-error="Your name is required">
+                          </div>
+                          </div>
+                        </div>
+                          <div class="col-sm-6">  
+                          <div class="form-group">
+                            <label class="required" for="form_email">Email</label>
+                            <input type="text" class="form-control" placeholder="" required="required" name="email" data-error="Your email is require">
+                          </div>
+                          </div>
                 </div>
-                  
+                <div class ="row">
+                  <div class="col-sm-4">
+                    Call Us<br>
+                    Monday-Friday<br>
+                    09.00-18.00<br>
+                    07889775301
+                </div>
+                  <form id="contact-form" onsubmit="onSubmit()" name="form">
+                    <div class="row">
+                      <div class="col-sm-8">
+                        <div class="form-group">
+                          <label class="required" for="form_message">Message</label>
+                          <input type="text" class="form-control"  placeholder="" required="required" name="message" data-error="Your message">
 
+                        </div>
+                      </div>
+                    </div>
+                    <form id="contact-form" onsubmit="onSubmit()" name="form">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="form_contactpreference">Do you want to subscribe to our newsletter?</label>
+                          <div class="form-check">
+                            <input type="checkbox" required="required">
+                            <label class="form_check">Yes</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" required="required">
+                            <label class="form_check">No</label>
+                          </div>
+                        </div>  
+                      </div>
+                    </div>
+                    <input type="button" onclick="onClickSubmitButton()" id="register" class="btn btn-primary" value="Submit" name="submit">
+                  
+                    </form>                    
               </div>
 
             </div>
