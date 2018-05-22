@@ -4,87 +4,63 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="formM.css">
+        <link rel="stylesheet" type="text/css"  href="formM.css">
       </head>
 
         <body>
-            <div class="container">
+          <div class="containter">
+            <div class="contact-title">
               <h1>How can we help</h1>
               <p>Excellent location</p>
+            </div>  
 
               <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18988.98492550626!2d-2.324830197461747!3d53.493063552737205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a4d4c5226f5db%3A0xd9be143804fe6baa!2sManchester!5e0!3m2!1sen!2suk!4v1525008376391"
-                    width="1200" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  Visit Us<br>
+          
+    <div class="row">
+              <div class="col-1-3">
+                  <p>Visit Us</p>
                   Vanilialemon<br>
                   26 Milton Grove<br>
                   Manchester<br>
                   United Kingdom<br>
-                </div>
-                    <form id="contact-form" onsubmit="onSubmit()" name="form">
-                        <div class="row">
-                          <div class="col-sm-6">
-                            <div class="form-group">
-                              <label class="required" for="form_name">Name</label>
-                              <input type="text" class="form-control" placeholder="" required="required" name="name" data-error="Your name is required">
-                          </div>
-                          </div>
-                        </div>
-                          <div class="col-sm-6">  
-                          <div class="form-group">
-                            <label class="required" for="form_email">Email</label>
-                            <input type="text" class="form-control" placeholder="" required="required" name="email" data-error="Your email is require">
-                          </div>
-                          </div>
-                </div>
-                <div class ="row">
-                  <div class="col-sm-4">
-                    Call Us<br>
-                    Monday-Friday<br>
-                    09.00-18.00<br>
-                    07889775301
-                </div>
-                  <form id="contact-form" onsubmit="onSubmit()" name="form">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <div class="form-group">
-                          <label class="required" for="form_message">Message</label>
-                          <input type="text" class="form-control"  placeholder="" required="required" name="message" data-error="Your message">
-
-                        </div>
-                      </div>
-                    </div>
-                    <form id="contact-form" onsubmit="onSubmit()" name="form">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <label for="form_contactpreference">Do you want to subscribe to our newsletter?</label>
-                          <div class="form-check">
-                            <input type="checkbox" required="required">
-                            <label class="form_check">Yes</label>
-                          </div>
-                          <div class="form-check">
-                            <input type="checkbox" required="required">
-                            <label class="form_check">No</label>
-                          </div>
-                        </div>  
-                      </div>
-                    </div>
-                    <input type="button" onclick="onClickSubmitButton()" id="register" class="btn btn-primary" value="Submit" name="submit">
                   
-                    </form>                    
+
+                  <p>Call Us</p>
+                  Monday-Friday<br>
+                  09.00-18.00<br>
+                  07889775301<br>
               </div>
-
+          <form>    
+          <div class="col-2-3" onsubmit="onSubmit()" id="contact-form" name="form">
+              <fieldset>
+    
+              <label class="required" for="name">Name</label>
+              <input type="text" class="form-control" placeholder="" required="required" name="name"><br>
+         
+              <label class="required" for="email">Email</label>
+              <input type="text" class="form-control" placeholder="" required="required" name="email"><br>
+                        
+              <label class="required" for="message">Message</label>
+              <textarea name="message" class="form-control"  placeholder="" rows="4" required="required" style="height:200px"></textarea><br>
+ 
+                     
+              <label for="form_contactpreference">Do you want to subscribe to our newsletter?</label>
+              <input type="checkbox" required="required">
+              <label class="check">Yes</label>
+              <input type="checkbox" required="required">
+              <label class="check">No</label>
+    
+              </fieldset>                    
+              <input type="button" onclick="onClickSubmitButton()" id="register" class="btn btn-primary" value="Submit" name="submit"> 
+          </div>                         
+         </form>                
+    </div>                        
             </div>
-
-
-
-
-
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+          
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
 
         </body>    
   </html>
