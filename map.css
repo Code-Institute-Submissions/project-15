@@ -1,10 +1,14 @@
-form {
-    border: 1px solid #c6c7cc;
-    border-radius: 5px;
-    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    overflow: hidden;
-    width: 240px;
+.contact-title h1 {
+    color: green;
+    margin: 0 0 3em;
 }
-* {
-    box-sizing: border-box;
+.main-body{
+    width: 100%;
+    margin:0 auto;
+    background-color: gray;
+}
+.main-body-left {
+    float: left;
+    width: 45%;
+    border-right: 1px solid #D7D7D7;
 }
