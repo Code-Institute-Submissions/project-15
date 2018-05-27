@@ -7,32 +7,35 @@
         <link rel="stylesheet" type="text/css"  href="formM.css">
       </head>
 
-<body>
+<body>  
     <div class="contact" onsubmit="onSubmit()" id="contact" name="contact">
        <div class="container">
-          <div class="col-md-offset-1 col-md-10">
+          <div class="col-sm-12">
           <h1>How can we help</h1>
           <p>Excellent location</p> 
-          <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18988.98492550626!2d-2.324830197461747!3d53.493063552737205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a4d4c5226f5db%3A0xd9be143804fe6baa!2sManchester!5e0!3m2!1sen!2suk!4v1525008376391"
-                    width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+          <div id="map" class="map1"><iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18988.98492550626!2d-2.324830197461747!3d53.493063552737205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a4d4c5226f5db%3A0xd9be143804fe6baa!2sManchester!5e0!3m2!1sen!2suk!4v1525008376391" 
+                      height="350" frameborder="0" style="border:0" allowfullscreen></iframe></div>
        </div>
 
     <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-6">
             <div class="container">
                     <form method="post" action="contact.php" name="contactform" id="contactform">
-                    
+                  <hr /> 
                   <p>Visit Us</p>
-                  Vanilialemon<br>
-                  26 Milton Grove<br>
-                  Manchester<br>
-                  United Kingdom<br>
-                  
+                  <div>
+                  Vanilialemon<br />
+                  26 Milton Grove<br />
+                  Manchester<br />
+                  United Kingdom<br />
+                  </div>
 
                   <p>Call Us</p>
-                  Monday-Friday<br>
-                  09.00-18.00<br>
-                  07889775301<br>
+                  <div>
+                  Monday-Friday<br />
+                  09.00-18.00<br />
+                  07889775301<br />
+                  </div>
             </div>
         </div>
 
@@ -44,31 +47,31 @@
                         <div class="row">  
                                <div class="col-sm-3">
                                     <fieldset>
-    
-                                        <label class="required" for="name">Name</label>
-                                        <input type="text" class="form-control" placeholder="" required="required" id="name" name="name"><br>
+                                         <hr />
+                                         <p>Send Us a message</p>
+                                         <div>
+                                        <input type="text" class="form-control" placeholder="Name" required="required" id="name" name="name"><br>
          
-                                        <label class="required" for="email">Email</label>
-                                        <input type="text" class="form-control" placeholder="" required="required" id="email" name="email"><br>
+                                        <input type="text" class="form-control" placeholder="Email" required="required" id="email" name="email"><br>
 
                                         <label for="form_contactpreference">Do you want to subscribe to our newsletter?</label><br>
                                         <input type="checkbox" required="required">
                                         <label class="check">Yes</label>
                                         <input type="checkbox" required="required">
                                         <label class="check">No</label>
-
+                                         </div>
                                     </fieldset>
                                 </div>
 
 
-                            <div class="row"> 
-                                <div class="col-sm-3">
-                                       <fieldset>             
-                                       <label class="required" for="message">Message</label>
-                                       <textarea name="message" class="form-control"  placeholder="" cols="40" rows="20" required="required" id="message"></textarea><br>
+                                <div class="row"> 
+                                  <div class="col-sm-3">
+                                       <fieldset>
+                                           <hr />             
+                                       <textarea name="message" class="form-control"  placeholder="Message" cols="40" rows="20" required="required" id="message"></textarea><br>
                                        </fieldset>
-                                </div>       
-                            </div>
+                                  </div>       
+                                </div>
                                 
                                        <fieldset>
                                        <input type="button" onclick="onClickSubmitButton()" id="register" class="btn btn-primary" value="Submit" name="submit">
@@ -86,10 +89,8 @@
     </form>   
        </div>
                
-</div>
-</div>
-    
-    
+    </div>
+    </div>   
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
 
