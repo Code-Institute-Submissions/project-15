@@ -75,7 +75,7 @@
           <div class="row">  
             <div class="col-sm-4"></div>
               <div class="col-sm-4">
-                <form id="contact-form" onSubmit="onSubmit()" name="form">
+                <form id="form-control" onSubmit="onSubmit()" name="form">
                     <div class="form-group">
                 
                             <label for="name">Your name</label>
@@ -186,7 +186,8 @@
 
                                
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script> 
 
         <script type="text/javascript" src="https://maps.google.com/maps/api/js"></script>
         <script>
@@ -205,12 +206,14 @@
                  return true;
              }
              function onSubmit() {
-                 let serializeForm = $("#contact-form").serialize();
+                 let serializeForm = $("#form-control").serialize();
                  alert (serializeForm);
                  return false;
              }
              $(document).ready(function() {
-        })
+                 alert("Hello,world!");
+
+        });
         
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeDRcyB14AfkGhnZ8nrvSUfRchGeWoZgg&callback=initMap"></script>
