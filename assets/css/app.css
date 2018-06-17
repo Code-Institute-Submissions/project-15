@@ -8,7 +8,7 @@ body {
     padding-bottom: 100px;
 }
 .navbar-expand-sm {
-    background-color: navy;
+    background-color: white;
     border-color: white;
     color: gray;
 }
@@ -32,7 +32,7 @@ body {
     background-color: transparent;
 }
 .dropdown-menu {
-    background-color:navy;
+    background-color: white;
 }
 .dropdown-menu a {
     color:gray;
@@ -42,6 +42,17 @@ body {
 
 }
 .dropdown-menu a:hover {
-    background-color: lightskyblue;  
+    background-color: #70AA70;  
 }
+
+header {
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    border: 0;
+
+}
+
 

@@ -1,4 +1,4 @@
-LEMONVANILIA | A Student House <br />
+VaniliaLemon | A Student House <br />
 
 This is a 'digital framework' I have developed for my project. It is a front-end website that provides a basic information for students seeking a private accomodation in Manchester with:
 
