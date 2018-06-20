@@ -41,7 +41,7 @@
     <!-- Header class -->
      
  
-<nav class="navbar navbar-expand-sm navbar-fixed-top" role="navigation">
+<nav id="navbar" class="navbar navbar-expand-sm" role="navigation">
   <div class="container">
     <a href="#" class="navbar-brand">A Student Accomodation</a>
        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-main">
@@ -224,6 +224,23 @@
               });   
 
         });
+
+    
+
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+
+
         
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeDRcyB14AfkGhnZ8nrvSUfRchGeWoZgg&callback=initMap"></script>
