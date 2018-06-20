@@ -30,7 +30,7 @@ Manual testing was undertaken for this application and satisfactorily passed. A 
 <ul>Testing the code to call the google API and the ability to scroll, zoom and click on map marker for location details. </ul>
 <ul>Testing buttons and hyperlinks throughout the site. </ul>
 
-AUTHORS <br />
+AUTHOR <br />
 
 Miroslav Frankovic - This project was completed as part of Code Institute's Web Development project for Stream 1 in June 2018.
 
