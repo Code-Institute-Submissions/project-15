@@ -20,13 +20,11 @@
   <body>
 
     <!-- Header class -->
-  <header><div class="header"><img src="assets/img/logo2-navbar.jpg" style="max-width:150px;"></div></header>
-  <nav id="navbar" class="navbar navbar-expand-sm" role="navigation">
-  <div class="container">
-      <a href="#" class="navbar-brand">A Student Accomodation</a>
-       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-main">
-          <span class="navbar-toggler-icon"></span>
-       </button>
+<nav class="navbar fixed-top navbar-expand-sm" role="navigation">
+    <a class="navbar-brand" href="#">
+    <img src="assets/img/logo2-navbar.jpg"style="max-width:80px;">A Student Accomodation</a>
+    
+       
 
     <div class="navbar-collapse collapse" id="navbar-collapse-main"> 
         <ul class="nav navbar-nav ml-auto">
@@ -44,6 +42,7 @@
     </div>
   </div>
 </nav>
+
       
 
     <!-- Carousel -->
@@ -240,20 +239,6 @@
     <script src="assets/js/vendor/holder.min.js"></script>
     <script src="src/app.js"></script>
     <script>
-
-    window.onscroll = function() {myFunction()};
-
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-
 
     </script>
 
