@@ -17,6 +17,7 @@ body {
     color: black;
     position: fixed;
     top: 0px;
+    height: 80px;
 
 }
 .navbar-expand-sm .navbar-brand {
