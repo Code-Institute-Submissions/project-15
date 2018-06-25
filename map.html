@@ -58,6 +58,14 @@
         .lin {
             background: #0077B5;
         }
+        label.required:after {
+        position: relative;
+        left: 3px;
+        top: -3px;
+        color: #e32;
+        content: '*';
+        display: inline;
+        }
          
     </style>
   </head>
@@ -80,7 +88,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
               <ul class="dropdown-menu">
                <li><a href="aboutus.html">About US</a></li>
-               <li><a href="map.html">Map/Our Location/Address</a></li>
+               <li><a href="map.html">Our Location</a></li>
               </ul>
            </li>
         </ul>
@@ -112,7 +120,7 @@
         </div>
     </div>
 <div id="form-container">
-    <form class="form-horizontal" onSubmit="onSubmit()" name="registerform">
+    <form id="contact-form" class="form-horizontal bg-light" onsubmit="onSubmit()" name="contact-form" action="#">
         <div class="container">
         
         <div class="row"> 
@@ -120,24 +128,25 @@
             <div class="col-sm-2">
                 <div class="form-group">
                         <label class="required" for="name">Your Name</label>
-                        <input type="text" id="name" class="form_control" placeholder="" required="required" name="name">  
+                        <input type="text" id="name" class="form-control" placeholder="" required="required" name="name">  
+                        <span id="yourname" class="text-danger font-weight-bold"></span>
                 </div>
                 <div class="form-group">
                         <label class="required" for="email">Your Email</label>
-                        <input type="email" id="email" class="form_control" placeholder="" required="required" name="email">
+                        <input type="email" id="email" class="form-control" placeholder="" required="required" name="email">
                 </div>
                 <div class="form-group">
                         <label class="required" for="message">Message</label>
-                        <textarea type="text" id="message" class="form_control" placeholder="" required="required" name="message" style="height:100px;"></textarea>
+                        <textarea type="text" id="message" class="form-control" placeholder="" required="required" name="message" style="height:100px;"></textarea>
                 </div>
                 <div class="form-group">
                         <label for="form_contactpreference">Do you want to subscribe to our newsletter?</label><br>
                         <label class="form-group-label" for="formCheck1">Yes</label>
-                        <input type="checkbox" id="formCheck1" name="formCheck" class="form-group-input" required="required">
+                        <input type="checkbox" id="formCheck1" name="formCheck" class="form-group-input">
                         <label class="form-group-label" for="formCheck2">No</label>   
-                        <input type="checkbox" id="formCheck2" name="formCheck" class="form-group-input" required="required"> 
+                        <input type="checkbox" id="formCheck2" name="formCheck" class="form-group-input"> 
                 </div>
-                <input type="button" onclick="onClickSubmitButton()" class="btn btn-primary" id="register" value="Submit" name="submit">
+                <input type="submit" onclick="onClickSubmitButton()" class="btn btn-primary" id="register" value="Submit" name="submit">
             </div>
             <div class="col"></div>
             
@@ -230,7 +239,18 @@
              }
              
              
+              function onSubmit(){
 
+                  let serializeForm = $('contact-form').serialize;
+                  alert(serializeForm);
+                  return false;
+
+                  
+              }
+               function onClickSubmitButton(){
+                   $('form').submit();
+                   return true;
+               }
     
 
     
