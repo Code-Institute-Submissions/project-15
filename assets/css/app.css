@@ -52,6 +52,9 @@ body {
 .dropdown-menu a:hover {
     background-color: lightgrey;  
 }
+.navbar-brand img {
+    height: 65px;
+}
 .icons {
     position: absolute;
 }
@@ -73,5 +76,15 @@ body {
 .lin {
     background: #0077B5;
 }
+@media (max-width:768px) {
+    nav ul li {
+        display: block;
+    }
+}
 
+@media (max-width:400px) {
+    nav ul li {
+        display: block;
+    }
+}
 
