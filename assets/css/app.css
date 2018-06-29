@@ -76,15 +76,3 @@ body {
 .lin {
     background: #0077B5;
 }
-@media (max-width:768px) {
-    nav ul li {
-        display: block;
-    }
-}
-
-@media (max-width:400px) {
-    nav ul li {
-        display: block;
-    }
-}
-
