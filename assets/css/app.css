@@ -52,8 +52,14 @@ body {
 .dropdown-menu a:hover {
     background-color: lightgrey;  
 }
+.navbar-brand {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 14px 16px;
+    font-size: 20px; 
+}
 .navbar-brand img {
-    height: 65px;
+    height: 70px;
 }
 .icons {
     position: absolute;
@@ -76,3 +82,4 @@ body {
 .lin {
     background: #0077B5;
 }
+

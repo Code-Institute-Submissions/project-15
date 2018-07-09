@@ -30,12 +30,13 @@
 
     <!-- Header class -->
  <header>
+<div class="project">
+<nav class="navbar fixed-top navbar-expand-md" role="navigation">
 
-<div class="project"> 
- <nav class="navbar navbar-expand-md fixed-top" role="navigation" id="mynavbar">
+<a class="navbar-brand" href="#default"><img src="assets/img/logo2-navbar.jpg"style="max-width:80px;">A Student Accomodation</a> 
+    
    
-    <a class="navbar-brand" href="#default"><img src="assets/img/logo2-navbar.jpg"style="max-width:80px;">A Student Accomodation</a> 
-
+    
      <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav ml-auto">
            <li class="active"><a href="index.html">Home</a></li>
@@ -54,16 +55,10 @@
       <i class="fa fa-bars"></i>
     </a>
    </div>
-</nav>
    </div>
-   <nav class="menu-sidebar menu-bar-block menu-black menu-card menu-animate-left menu-hide-medium menu-hide-large" style="display:none" id="mysidebar">"
-      <a href="javascript:void(0)" onclick="menu_close()" class="menu-bar-item menu-button menu-large menu-padding-16">Close ×</a>
-      <a href="#index.html" onclick="menu_close()" class="menu-bar-item menu-button">Home</a>
-      <a href="gallery.html" onclick="menu_close()" class="menu-bar-item menu-button">Gallery</a>
-      <a href="news.html" onclick="menu_close()" class="menu-bar-item menu-button">News and Advice</a>
-      <a href="aboutus.html" onclick="menu_close()" class="menu-bar-item menu-button">About Us</a>
-      <a href="map.html" onclick="menu_close()" class="menu-bar-item menu-button">CONTACT</a>
-    </nav>
+  </nav>
+</div>
+   
  </header>
 
   
@@ -267,21 +262,6 @@
     <script src="src/app.js"></script>
     <script>
 
-var mysidebar = document.getElementById("mysidebar");
-
-function menu_open() {
-    if (mysidebar.style.display === 'block') {
-        mysidebar.style.display = 'none';
-    } else {
-        mysidebar.style.display = 'block';
-    }
-}
-
-// Close the sidebar with the close button
-function menu_close() {
-    mysidebar.style.display = "none";
-}
-     
 
     </script>
 
