@@ -3,6 +3,7 @@ body {
     padding: 0;
 
 }
+/*
 .navbar-text > a {
     color: inherit;
     text-decoration: none;
@@ -11,6 +12,7 @@ body {
     padding-top: 0;
     padding-bottom: 100px;
 }
+/*
 .navbar-expand-lg {
     background-color: white;
     border-color: white;
@@ -20,15 +22,17 @@ body {
     height: 80px;
 
 }
-/*
+
 .navbar-expand-lg .navbar-brand {
     color: black;
 }
+
 .navbar-expand-lg .navbar-brand:hover,
 .navbar-expand-lg .navbar-brand:focus {
     color: lightskyblue;
     background-color: transparent;
 }
+
 .navbar-expand-lg .navbar-nav > li > a {
     color: black;
     display: block;
@@ -40,7 +44,7 @@ body {
     color: lightskyblue;
     background-color: transparent;
 }
-*/
+
 .dropdown-menu {
     background-color: white;
 }
@@ -67,6 +71,9 @@ body {
     margin: 2px;
 
 }
+
+
+
 .fb {
     background: #3b5999;
 }
@@ -80,7 +87,7 @@ body {
     background: #0077B5;
 }
 
-
+*/
 
 
   
