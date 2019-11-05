@@ -11,10 +11,11 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet"> 
 
     <!-- Custom styles for this template -->
     <link href="assets/css/carousel.css" type="text/css" rel="stylesheet">
-    <link href="assets/css/app.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--<link rel="stylesheet" href="css/bootstrap-responsive.css"> -->
     <link rel="stylesheet" href="assets/css/app.css" type="text/css">
@@ -27,13 +28,13 @@
 
     <!-- Header class -->
  <header>
-  <nav class="navbar-nav navbar-expand-lg navbar-dark bg-secondary fixed-top">
+  <nav class="navbar-nav navbar navbar-text navbar-dark navbar-expand fixed-top">
     <a class="navbar-text"><img src="assets/img/logo2-navbar.jpg"style="max-width:60px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="navbar-text collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="navbar-nav collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -41,19 +42,17 @@
         <li class="nav-item">
           <a class="nav-link" href="gallery.html">Gallery</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Contact
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="aboutus.html">About Us</a>
-            <a class="dropdown-item" href="map.html">Our Location</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="privacy.html">Our Policy</a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="news.html">Updated Informations</a>
+          <a class="nav-link" href="map.html">Our Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="privacy.html">Our Policy </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">Our Info</a>
         </li>
       </ul>
       
@@ -61,15 +60,7 @@
   </nav>
 
  </header>
-
-    
-
-
-  
-
-      
-
-    <!-- Carousel -->
+ <!-- Carousel -->
 
     <main role="main">
 
@@ -81,7 +72,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="assets/img/snail.jpg" alt="snail">
+            <img class="first-slide" src="assets/img/snail.jpg" alt="snail" background-size="100% 100%">
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1>Keeping safe.</h1>
@@ -133,19 +124,31 @@
           <div class="col-lg-4">
             <img class="rounded-circle" src="assets/img/house.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Student Advice</h2>
-            <p>Frequently Asked Question.</p>
+            <p>
+              <font size="3" face="arial" color="red">
+                  Frequently Asked Question.
+              </font>
+            </p>
             <p><a class="btn btn-secondary" href="news.html" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="assets/img/room.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Student Advice</h2>
-            <p>Here you will find some useful documents should you need them. This includes a sample tenancy agreement and also our cancelation policy.</p>
+            <p>
+              <font size="3" face="arial" color="red">
+              Here you will find some useful documents.
+              </font>
+            </p>
             <p><a class="btn btn-secondary" href="privacy.html" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="assets/img/heat.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Studnet Advice</h2>
-            <p>We understand that moving to a new country can be scary. We take the time to really understand your priorities, and make sure we provide exactly what you desire from your accomodation.</p>
+            <p>
+              <font size="3" face="arial" color="red">
+              We understand your priorities.
+              </font>
+            </p>
             <p><a class="btn btn-secondary" href="news.html" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
@@ -200,59 +203,52 @@
 
 
       <!-- FOOTER -->
-      <footer>
-        <div id="footer-container">
-          <footer class="container site-footer font-small">
-              <div class="container text-center text-sm-left">
-                  <div class="row">
-                      <div class="col-sm-4">
-                          <p class="text-uppercase">Info</p>
-                          <p>We are easily reached by public transport.</p>
-                          <p>Buses that stop nearby: 85, 86</p>
-                          <p>Opening Times: Mon-Fri: 09.00-18.00</p>
-                      </div>
-                      <div class="col-sm-2">
-                          <p class="text-uppercase">About</p>
-                          <ul class="list-unstyled">
-                              <li><p><a href="index.html">Home</a></p></li>
-                              <li><p><a href="gallery.html">Gallery</a></p></li>
-                              <li><p><a href="news.html">News</a></p></li>
-                              <li><p><a href="map.html">Location</a></p></li>
-                              <li><p><a href="aboutus.html">About Us</a></p></li>
-                              <li><p><a href="privacy.html">Privacy Policy</a></p></li>
-                              
-                          </ul>
-                      </div>
-                      <div class="col-sm-4">
-                          <p class="text-uppercase">Get in Touch</p>
-                          <ul class="list-unstyled">
-                              <li><p><i class="fa fa-envelope mr-3"></i> miro.frankovic@gmail.com</p></li>
-                              <li><p><i class="fa fa-phone mr-3"></i> 07889775301</p></li>
-                          </ul>
-                      </div>
-                    
-                      <div class="col-sm-2">
-                          <p class="text-uppercase">Follow Us</p>
-    
-                          
-                           <div class="icons">
-                            <a href="https://www.facebook.com/"><i class="fb fa fa-facebook"></i></a>
-                            <a href="https://twitter.com/"><i class="tw fa fa-twitter"></i></a>
-                            <a href="https://plus.google.com/"><i class="gog fa fa-google-plus"></i></a>
-                            <a href="https://uk.linkedin.com/"><i class="lin fa fa-linkedin"></i></a>
-                           </div>
-                      </div>
-              
-                  </div>
+      <footer class="bd-footer" id="">
+          <div class="container">
+            <div class="row no-margin">
+              <div class="col l6 m3 s12 mobile-hide">
+                <h5 class="black-text footer-heading">Connect your training with our nutrition typs...</h5>
+                <p class="grey-text text-lighten-4 footer-text">If you have any suggestions, please contact us or add some your recipes!</p>
+        
+        
               </div>
-              <div class="footer-copyright text-center py-3">© Copyright &middot; VaniliaLemon  &middot; 2018</div>
-              <div class="float-right"><a href="#">Back to top</a></div> 
-          </footer> 
-    
-      </div>
-
-
-      </footer>
+              <div class="col l4 m3 s12 mobile-hide">
+                <h5 class="white-text">Created by Miroslav Frankovic</h5>
+                <ul>
+                  <a href="mailto:miro.frankovic@gmail.com">
+                    <i class="fa fa-at fa-2x" aria-hidden="true"></i>
+                  </a>  
+                  <a href="https://github.com/mirofrankovic">
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://www.facebook.com/">
+                    <i class="fb fa fa-facebook fa-2x" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://twitter.com/">
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://uk.linkedin.com/">
+                    <i class="lin fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                  </a>
+        
+        
+                </ul>
+              </div>
+              <div class="col l2 s12">
+                <h5 class="black-text">Contact Us</h5>
+                <ul>
+                  <li><p><i class="fa fa-phone mr-3"></i> 07889775301</p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright blue">
+            <div class="container">
+            Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            </div>
+          </div>
+        </footer>
+      
     </main>
 
     <!-- Bootstrap core JavaScript

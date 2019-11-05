@@ -52,6 +52,8 @@ body {
     display: block;
 }
 
+
+
 @media screen and (min-width: 768px) {
     .navbar {
         display: flex;
@@ -70,6 +72,9 @@ body {
 
     .main-nav li {
         margin: 0;
+    }
+    .navbar-nav > li > a {
+        font-size: 20px;
     }
 
     .nav-links {
@@ -112,3 +117,17 @@ body {
 .lin {
     background: #0077B5;
 }
+
+
+/*.bd-footer {
+    font-size: 100%;
+    text-align: center;
+    background: grey;
+    /*background-image:linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 0px;
+    
+  }
+*/
