@@ -13,7 +13,7 @@ body {
     font-size: 3;
 }
 
-#container {
+.container {
     height: 100%;
   }
 
@@ -22,30 +22,61 @@ body {
     background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 10px;
-}
-
-.main-nav {
-    list-style-type: none;
-    display: none;
-}
-
-.nav-links,
-.logo {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.main-nav li {
-    text-align: center;
-    margin: 15px auto;
-}
-
-.logo {
     display: inline-block;
-    font-size: 22px;
-    margin-top: 10px;
-    margin-left: 20px;
+    
 }
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar li {
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+
+
+li a:hover {
+    background-color: rgb(199, 22, 22);
+  }
+
+  
+
+.navbar-nav a{
+    text-decoration: none;
+  }
+
+
+.nav-item {
+    float: right;
+    list-style-type: none;
+  }
+
+  .navbar-nav > li > a {
+    font-size: 20px;
+}
+
+.flex-row-reverse{
+    flex-direction: row-reverse!important;
+}
+ 
+  
+  
+  
+  .navbar-nav>li {
+    display: inline-block;
+    text-align: center;
+
+}
+
 
 .navbar-toggler {
     position: absolute;
@@ -62,29 +93,34 @@ body {
 }
 
 
-
+/*
 @media screen and (min-width: 768px) {
     .navbar {
         display: flex;
         justify-content: space-between;
         padding-bottom: 0;
-        height: 70px;
+        
         align-items: center;
+        margin-right: 0px;
+        flex-direction: row;
+        justify-content: flex-end;
     }
 
-    .main-nav {
+
+
+   .navbar-nav {
         display: flex;
         margin-right: 30px;
         flex-direction: row;
         justify-content: flex-end;
     }
-
-    .main-nav li {
+     
+    .navbar-nav li {
         margin: 0;
-    }
-    .navbar-nav > li > a {
-        font-size: 20px;
-    }
+    } 
+
+  
+*/
 
     .nav-links {
         margin-left: 40px;
@@ -101,8 +137,9 @@ body {
     .logo:hover,
     .nav-links:hover {
         color: rgba(255, 255, 255, 1);
-    }
-}
+    } 
+
+
 
 .icons {
     position: absolute;
@@ -113,6 +150,7 @@ body {
     margin: 2px;
 
 }
+
 
 .fb {
     background: #3b5999;
@@ -133,39 +171,3 @@ body {
 .gm {
     background: red;
 }
-
-
-
-
-
-     /*   margin-top: 100px ;
-        text-align: center ;
-        font-size: 16px ;
-        font-family: verdana ;
-        min-width: 768px ;
-        /*height: 50px ; 
-        background-color:green ;
-        bottom:0;
-        padding: 0;
-        position: fixed;
-    
-   /* font-size: 10px;
-    text-align: center;
-    background: grey;
-    /*background-image:linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
-    width: 100%;
-    position: relative;
-    bottom: 0px;
-    padding: 0px;
-    left: 0; 
-    
-  }*/
-
-  /*.bd-footer {
-    font-size: 50%;
-    text-align: center;
-    background-color: green;
-  
-  }
-
-  
