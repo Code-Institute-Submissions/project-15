@@ -7,24 +7,74 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     padding-top: 70px;
+    text-align: left;
+    /*overflow-x:hidden;*/
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin:0;
 }
+.container {
+    height: 100%;
+  }
 
 .font {
     font-size: 3;
 }
 
-.container {
-    height: 100%;
-  }
-
 .navbar {
-    font-size: 18px;
+    width: 100%;
+    font-size: 3px;
     background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding-bottom: 10px;
+    padding-bottom: .5em;
     display: inline-block;
+    height: 120px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0;
+
     
 }
+.navbar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    height: 50px;        /* if you want it to take the full height of the bar */
+    line-height: 105px; 
+}
+
+li {
+    list-style: none;
+    float:left;
+    
+}
+/*
+li .nav-link {
+    
+    -webkit-font-smoothing: antialiased!important;
+    font-size: 1.05em;
+    padding-right: 2.5em;
+    display:block;
+    line-height: 0px;
+  
+}
+*/
+
+li a:hover {
+    background-color: rgb(88, 128, 180);
+  }
+
+
+.navbar-bg {
+    border: 0;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: larger;
+}
+
+
 .fixed-top {
     position: fixed;
     top: 0;
@@ -32,6 +82,59 @@ body {
     left: 0;
     z-index: 1030;
 }
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.ml-3 {
+    margin-left: 1rem!important;
+}
+
+.navbar-expand-lg .navbar-nav > li > a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 0px 16px;
+
+}
+.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ 
+.navbar-nav li {
+    margin: 0;
+} 
+
+.responsive-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -2px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+
+}
+
+
+
 
 .navbar li {
     display: inline-block;
@@ -42,14 +145,6 @@ ul {
     margin: 0;
     padding: 0;
   }
-
-
-li a:hover {
-    background-color: rgb(199, 22, 22);
-  }
-
-  
-
 .navbar-nav a{
     text-decoration: none;
   }
@@ -93,36 +188,29 @@ li a:hover {
 }
 
 
-/*
+
 @media screen and (min-width: 768px) {
-    .navbar {
+    .navbar li a {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 0;
+        padding-bottom: 0px;
         
         align-items: center;
         margin-right: 0px;
         flex-direction: row;
         justify-content: flex-end;
+        padding-top: 0px;
+        
     }
 
 
 
-   .navbar-nav {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-     
-    .navbar-nav li {
-        margin: 0;
-    } 
+   
 
   
-*/
+}
 
-    .nav-links {
+    .nav-link {
         margin-left: 40px;
     }
 
@@ -135,11 +223,10 @@ li a:hover {
     }
 
     .logo:hover,
-    .nav-links:hover {
+    .nav-link:hover {
         color: rgba(255, 255, 255, 1);
     } 
-
-
+    
 
 .icons {
     position: absolute;
@@ -171,3 +258,101 @@ li a:hover {
 .gm {
     background: red;
 }
+
+
+.cover{
+    width:0px;  
+    height:0px; 
+
+/*Scale down will take the necessary specified space that is 150px x 100px without stretching the image*/
+    object-fit:scale-down;
+}
+
+
+/*
+.cover {
+    object-fit: cover;
+  }
+*/
+
+
+
+
+
+/* Declare heights because of positioning of img element */
+  .carousel-caption {
+  bottom: 10rem;   /* text next to the image */
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 30rem;  /* space above and below image in carousel*/
+    background-color:black;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+  
+    left: 0;
+    min-width: 100%;
+    height: 30rem;
+  }
+
+
+  /* Declare Images for cover possition */
+
+
+/*
+  .leafimage {
+
+
+   /* background: url(../assets/img/leaf.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 0%;
+    height: 100%;
+     
+    
+
+
+}
+
+      /* The image used */
+  /*background-image: url("leaf.jpg");
+
+  /* Full height 
+  height: 100%;
+  width: 100%; 
+  /*top: 0; */
+  /*left:0;
+
+  /* Center and scale the image nicely */
+  /*background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+  /*right: 0; 
+  /*bottom: 0; */
+
+ /* }
+  /*content: "";
+  z-index: 0;
+  object-fit: contain;
+
+  } 
+
+  /*.featurette-image img {
+    max-width:50%;
+    max-height:50%;
+  }
+ 
+/*
+    margin: 0px; 
+    padding : 0px;
+    background: url(leaf.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+  
