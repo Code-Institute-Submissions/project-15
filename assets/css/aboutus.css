@@ -200,6 +200,19 @@ ul {
   
 }
 
+
+.container-wrapper {
+    background: url("../img/sony pictures 227.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    
+
+}
+
+
+
+
     .nav-link {
         margin-left: 40px;
     }
@@ -252,7 +265,7 @@ ul {
 
 /* Footer */
 
-.container-fluid {
+.container-footer {
 
     margin-top: 100px ;
     text-align: center ;

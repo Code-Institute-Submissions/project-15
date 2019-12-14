@@ -17,6 +17,7 @@ body {
 
 .container {
   height: 100%;
+  
 }
 
 .font {
@@ -252,7 +253,7 @@ ul {
 
 /* Footer */
 
-.container-fluid {
+.container-footer {
 
   margin-top: 100px ;
   text-align: center ;

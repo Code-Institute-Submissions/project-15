@@ -252,12 +252,12 @@ ul {
 
 /* Footer */
 
-.container-fluid {
+.container-footer {
 
-    margin-top: 100px ;
-    text-align: center ;
+    margin-top: 100px;
+    text-align: center;
     font-size: 100%;
-    font-family: Verdana ;
+    font-family: Verdana;
     width: 100%;
     min-height: 100%;
     background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3 100%);
