@@ -13,6 +13,12 @@ body {
     height: 100%;
     max-width: 100%;
     margin:0;
+    min-height:100%; 
+    position:relative; 
+    
+}
+html {
+    height: 100%;
 }
 
 .container {
@@ -202,13 +208,16 @@ ul {
 
 
 .container-wrapper {
-    background: url("../img/sony pictures 227.jpg") no-repeat center center;
+    background: url("../img/logo2-navbar.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: repeat;
     
 
 }
+
+
+
 
 
 
@@ -279,5 +288,7 @@ ul {
     position: relative;
     clear: both;
 }
+
+
 
 

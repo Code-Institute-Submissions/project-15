@@ -227,7 +227,7 @@ ul {
         color: rgba(255, 255, 255, 1);
     } 
     
-
+/*
 .icons {
     position: absolute;
 }
@@ -237,7 +237,7 @@ ul {
     margin: 2px;
 
 }
-
+*/
 
 .fb {
     background: #3b5999;
@@ -300,61 +300,7 @@ ul {
   }
 
 
-  /* Declare Images for cover possition */
-
-
-/*
-  .leafimage {
-
-
-   /* background: url(../assets/img/leaf.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-bottom: 0%;
-    height: 100%;
-     
-    
-
-
-}
-
-      /* The image used */
-  /*background-image: url("leaf.jpg");
-
-  /* Full height 
-  height: 100%;
-  width: 100%; 
-  /*top: 0; */
-  /*left:0;
-
-  /* Center and scale the image nicely */
-  /*background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; 
-  /*right: 0; 
-  /*bottom: 0; */
-
- /* }
-  /*content: "";
-  z-index: 0;
-  object-fit: contain;
-
-  } 
-
-  /*.featurette-image img {
-    max-width:50%;
-    max-height:50%;
-  }
- 
-/*
-    margin: 0px; 
-    padding : 0px;
-    background: url(leaf.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%; */
+  
 
 
 
@@ -385,6 +331,13 @@ ul {
 }
 
 
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+
+
 
 
 .photo-heading {
@@ -392,10 +345,11 @@ ul {
     letter-spacing: 0.1em;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    color: #dbc7bd;
+    color: #746b67;
     margin: auto;
     padding-bottom: 50px;
 }
+
 
 .fa {
     display: inline-block;

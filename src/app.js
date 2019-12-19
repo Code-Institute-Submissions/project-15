@@ -1,5 +1,5 @@
 
-
+/*
 $(document).ready(function() {
     $("#my-button").click(function(){
         //Get search myinput input in buttons HTML
@@ -21,4 +21,6 @@ $(document).ready(function() {
     });
 });
 
+
+*/
 

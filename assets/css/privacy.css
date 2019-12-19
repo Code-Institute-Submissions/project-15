@@ -251,6 +251,16 @@ ul {
 }
 
 
+.container-wrapper {
+  background: url("../img/logo2-navbar.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  
+
+}
+
+
 /* Footer */
 
 .container-footer {
