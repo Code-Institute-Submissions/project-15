@@ -285,10 +285,17 @@ ul {
   z-index: 10;
 }
 
+.carousel-caption h1 {
+    color: greenyellow;
+}
+.carousel-caption p {
+    color: green;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
     height: 30rem;  /* space above and below image in carousel*/
-    background-color:black;
+    background-color: white;
   }
   .carousel-item > img {
     position: absolute;

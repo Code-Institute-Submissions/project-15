@@ -21,7 +21,7 @@ GETTING STARTED / DEPLOYMENT <br />
 
 BUILT WITH <br />
 
-HTML, CSS ans JavaScript: Front end languages that give the application structure, style and interactivity
+HTML, CSS, JavaScript and jQuery-3.4.1.js version: Front End languages that give the application structure, style and interactivity
 
 TESTING <br />
 
