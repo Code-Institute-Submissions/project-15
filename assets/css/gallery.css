@@ -21,10 +21,10 @@ body {
     position:relative;
 }
 
-.container {
+/*.container {
     height: 100%;
   }
-
+*/
 .container-fluid {
     width: 100%;
     padding-right: 15px;
@@ -312,6 +312,15 @@ ul {
   
   .example-contain img {
     object-fit: contain;
+  }
+
+  .row {
+      margin-left: 50px;
+      
+  }
+
+  .row img {
+      max-width: 100%;
   }
 
 
