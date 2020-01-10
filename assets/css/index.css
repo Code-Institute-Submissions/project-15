@@ -61,9 +61,6 @@ li .nav-link {
 }
 */
 
-li a:hover {
-    background-color: rgb(88, 128, 180);
-  }
 
 
 .navbar-bg {
@@ -237,7 +234,7 @@ ul {
     margin: 2px;
 
 }
-*/
+
 
 .fb {
     background: #3b5999;
@@ -258,7 +255,7 @@ ul {
 .gm {
     background: red;
 }
-
+*/
 
 .cover{
     width:0px;  
@@ -330,12 +327,26 @@ ul {
     font-family: Verdana ;
     width: 100%;
     min-height: 100%;
-    background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3 100%);
+    /*background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3 100%);*/
     bottom: 0px;
     padding: 0px;
     position: relative;
     clear: both;
+    background: white;
 }
+
+.justify-content-center li a {
+    background-color: black;
+    border-radius: 50%;
+    display: block;
+    background: black;
+}
+
+
+
+li a:hover {
+    background-color: rgb(88, 128, 180);
+  }
 
 
 .justify-content-center {
