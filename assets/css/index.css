@@ -36,6 +36,16 @@ body {
 
     
 }
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+  /*For always expanded or extra full navbars, ensure content aligns itself
+    properly vertically. Can be easily overridden with flex utilities. */
+     align-items: center;
+}
+
+
+
 .navbar > a {
     display: inline-block;
     vertical-align: top;
@@ -321,7 +331,7 @@ ul {
 
 .container-footer {
 
-    margin-top: 100px ;
+    margin-top: 3rem ;
     text-align: center ;
     font-size: 100%;
     font-family: Verdana ;

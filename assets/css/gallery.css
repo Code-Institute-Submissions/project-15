@@ -65,9 +65,7 @@ li {
     
 }
 
-li a:hover {
-    background-color: rgb(88, 128, 180);
-  }
+
 
 
 .navbar-bg {
@@ -231,7 +229,7 @@ ul {
         color: rgba(255, 255, 255, 1);
     } 
     
-
+/*
 .icons {
     position: absolute;
 }
@@ -262,7 +260,7 @@ ul {
 .gm {
     background: red;
 }
-
+*/
 
 .cover{
     width:0px;  
@@ -320,7 +318,7 @@ ul {
 
   .container-footer {
 
-  margin-top: 100px ;
+  margin-top: 0px ;
   text-align: center ;
   font-size: 100%;
   font-family: Verdana ;
@@ -331,6 +329,52 @@ ul {
   padding: 0px;
   position: relative;
   clear: both;
+}
+
+
+.justify-content-center li a {
+    background-color: black;
+    border-radius: 50%;
+    display: block;
+    background: black;
+}
+
+
+
+
+li a:hover {
+    background-color: rgb(88, 128, 180);
+  }
+
+
+  
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+
+
+
+
+.photo-heading {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #746b67;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+
 }
 
 
