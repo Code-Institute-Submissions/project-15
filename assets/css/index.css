@@ -71,14 +71,6 @@ li .nav-link {
     line-height: 0px;
   
 }
-
-<<<<<<< HEAD
-=======
-
-
->>>>>>> a4cefaf186ce80a5af7e0b08285819b977b1af5d
-
-
 .navbar-bg {
     border: 0;
     text-transform: uppercase;
@@ -352,28 +344,20 @@ ul {
 /* Footer */
 
 .container-footer {
+  margin-top: 0px ;
+  text-align: center ;
+  font-size: 100%;
+  font-family: Verdana ;
+  width: 100%;
+  min-height: 100%;
+  background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3 100%);
+  bottom: 0px;
+  padding: 0px;
+  position: relative;
+  clear: both;
 
-<<<<<<< HEAD
-    margin-top: 3rem ;
-    text-align: center ;
-=======
-    margin-top: 100px;
-    text-align: center;
->>>>>>> a4cefaf186ce80a5af7e0b08285819b977b1af5d
-    font-size: 100%;
-    font-family: Verdana;
-    width: 100%;
-    min-height: 100%;
-<<<<<<< HEAD
-    /*background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3 100%);*/
-=======
-    background-image: grey;
->>>>>>> a4cefaf186ce80a5af7e0b08285819b977b1af5d
-    bottom: 0px;
-    padding: 0px;
-    position: relative;
-    clear: both;
-    background: white;
+
+    
 }
 
 .justify-content-center li a {
