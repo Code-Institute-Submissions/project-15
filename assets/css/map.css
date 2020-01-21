@@ -283,22 +283,12 @@ ul {
 
 
 .justify-content-center li a {
-    background-color: black;
+    /*background-color: black; */
     border-radius: 50%;
     display: block;
-    background: black;
+    background:rgb(60, 86, 233);
 }
-
-
-<<<<<<< HEAD
-
-
-li a:hover {
-    background-color: rgb(88, 128, 180);
-  }
-
-
-  
+ 
 .justify-content-center {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
@@ -329,9 +319,25 @@ li a:hover {
 }
 
 
+.social-icon li a:hover {
+    background-color: rgb(88, 128, 180);
+  }
+
+  .social-icon li a {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 38px;
+    /*width: 35px; */
+    text-decoration: none;
+    outline: none;
+  }
+  .social-icon li a i {
+    color: #d2d2db;
+  }
 
 
 
 
-=======
->>>>>>> a4cefaf186ce80a5af7e0b08285819b977b1af5d
+
+
+

@@ -49,11 +49,7 @@ body {
 li {
   list-style: none;
   float:left;
-  
-}
-
-
-
+  }
 
 .navbar-bg {
   border: 0;
@@ -122,9 +118,6 @@ li {
 
 }
 
-
-
-
 .navbar li {
   display: inline-block;
   text-align: center;
@@ -151,9 +144,6 @@ ul {
 .flex-row-reverse{
   flex-direction: row-reverse!important;
 }
-
-
-
 
 .navbar-nav>li {
   display: inline-block;
@@ -191,12 +181,6 @@ ul {
       padding-top: 0px;
       
   }
-
-
-
- 
-
-
 }
 
   .nav-link {
@@ -216,38 +200,7 @@ ul {
       color: rgba(255, 255, 255, 1);
   } 
   
-/*
-.icons {
-  position: absolute;
-}
-.icons a {
-  color: white;
-  font-size: 30px;
-  margin: 2px;
 
-}
-
-
-.fb {
-  background: #3b5999;
-}
-.tw {
-  background: #55acee;
-}
-.gog {
-  background: #dd4b39;
-}
-.lin {
-  background: #0077B5;
-}
-
-.gt {
-  background:black;    
-}
-.gm {
-  background: red;
-}
-*/
 
 .container-wrapper {
   background: url("../img/logo2-navbar.jpg") no-repeat center center;
@@ -255,9 +208,30 @@ ul {
   background-attachment: fixed;
   /*background-repeat: repeat; */
   
-  
+}
+
+/* Content */
+
+.text-uppercase {
+    font-family:proxima-nova, sans-serif !important;
+    font-style: normal;
+    font-size: 30px;
+    font-weight:400;
+    letter-spacing: 3px;
+    color: #231f20;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    padding-top: 40px;
+}
+
+p {
+  text-indent: 30px;
+  padding-top: 20px;
 
 }
+
+
+
 
 
 /* Footer */
@@ -278,20 +252,11 @@ ul {
 }
 
 .justify-content-center li a {
-  background-color: black;
+  /*background-color: black; */
   border-radius: 50%;
   display: block;
-  background: black;
+  background:rgb(60, 86, 233);
 }
-
-
-
-
-li a:hover {
-  background-color: rgb(88, 128, 180);
-}
-
-
 
 .justify-content-center {
   -webkit-box-pack: center !important;
@@ -321,6 +286,31 @@ li a:hover {
   -webkit-font-smoothing: antialiased;
 
 }
+
+
+.social-icon {
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.social-icon li a:hover {
+  background-color: rgb(130, 167, 212);
+}
+
+.social-icon li a {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 38px;
+  /*width: 35px; */
+  text-decoration: none;
+  outline: none;
+}
+.social-icon li a i {
+  color: #d2d2db;
+}
+
 
 
 

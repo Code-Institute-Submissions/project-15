@@ -236,40 +236,22 @@ ul {
     .nav-link:hover {
         color: rgba(255, 255, 255, 1);
     } 
-    
-/*
-.icons {
-    position: absolute;
-}
-.icons a {
-    color: white;
+
+/* Content */
+
+.text-uppercase {
+    font-family:proxima-nova, sans-serif !important;
+    font-style: normal;
     font-size: 30px;
-    margin: 2px;
-
+    font-weight:400;
+    letter-spacing: 3px;
+    color: #231f20;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    padding-top: 40px;
 }
 
-
-.fb {
-    background: #3b5999;
-}
-.tw {
-    background: #55acee;
-}
-.gog {
-    background: #dd4b39;
-}
-.lin {
-    background: #0077B5;
-}
-
-.gt {
-    background:black;    
-}
-.gm {
-    background: red;
-}
-*/
-
+     
 /* Footer */
 
 .container-footer {
@@ -290,19 +272,11 @@ ul {
 
 
 .justify-content-center li a {
-    background-color: black;
+    /*background-color: black; */
     border-radius: 50%;
     display: block;
-    background: black;
+    background:rgb(60, 86, 233);
 }
-
-
-
-
-li a:hover {
-    background-color: rgb(88, 128, 180);
-  }
-
 
   
 .justify-content-center {
@@ -341,6 +315,23 @@ li a:hover {
     justify-content: space-between;
   }
 
+  .social-icon li a {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 38px;
+    /*width: 35px; */
+    text-decoration: none;
+    outline: none;
+  }
+  .social-icon li a i {
+    color: #d2d2db;
+  }
+
+
+  
+.social-icon li a:hover {
+    background-color: rgb(88, 128, 180);
+  }
 
 
 

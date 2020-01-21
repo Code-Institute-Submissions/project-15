@@ -13,6 +13,7 @@ body {
     height: 100%;
     max-width: 100%;
     margin:0;
+    position:relative;
 }
 .container {
     height: 100%;
@@ -58,7 +59,7 @@ body {
 
 li {
     list-style: none;
-    float:left;
+    float:left; 
     
 }
 /*
@@ -71,6 +72,7 @@ li .nav-link {
     line-height: 0px;
   
 }
+*/
 .navbar-bg {
     border: 0;
     text-transform: uppercase;
@@ -80,7 +82,7 @@ li .nav-link {
     background-color: chartreuse;
 }
 
-*/
+
 .fixed-top {
     position: fixed;
     top: 0;
@@ -240,7 +242,7 @@ ul {
 
     .logo:hover,
     .nav-link:hover {
-        color: orangered;
+        color: rgba(255, 255, 255, 1);
     } 
     
 /*
@@ -327,11 +329,6 @@ ul {
     height: 30rem;
   }
 
-
-  
-
-
-
     html{
         height:100%;
         }
@@ -340,10 +337,32 @@ ul {
          background-size: cover; 
          height:70vh;     
     }
+
+    .row {
+        margin-left: 50px;
+        
+    }
+
+    
+.photo-heading {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: #746b67;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+
+
+
   
 /* Footer */
 
 .container-footer {
+
   margin-top: 0px ;
   text-align: center ;
   font-size: 100%;
@@ -355,23 +374,9 @@ ul {
   padding: 0px;
   position: relative;
   clear: both;
-
-
-    
-}
-
-.justify-content-center li a {
-    background-color: black;
-    border-radius: 50%;
-    display: block;
-    background: black;
 }
 
 
-
-li a:hover {
-    background-color: rgb(88, 128, 180);
-  }
 
 
 /*
@@ -382,13 +387,13 @@ li a:hover {
 
 
 .justify-content-center li a {
-    background-color: black;
+    /*background-color: rgb(35, 116, 223); */
     border-radius: 50%; 
     display: block;
-    background:black;
+    background:rgb(60, 86, 233);
 }
 
-
+/*
 
 li a:before {
     position: absolute;
@@ -402,31 +407,13 @@ li a:before {
 
 }
 
- li a:hover {
-    background-color: rgb(88, 128, 180);
-  }
+*/
 
-
-
-/*
 .justify-content-center {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
-    justify-content: center !important;
+    /*justify-content: center !important; */
   }
-
-
-
-
-.photo-heading {
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-    color: #746b67;
-    margin: auto;
-    padding-bottom: 50px;
-}
 
 
 .fa {
@@ -437,3 +424,29 @@ li a:before {
     -webkit-font-smoothing: antialiased;
 
 }
+
+
+
+
+.social-icon {
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+
+  .social-icon li a:hover {
+    background-color: rgb(130, 167, 212);
+  }
+
+.social-icon li a {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 38px;
+    /*width: 35px; */
+    text-decoration: none;
+    outline: none;
+  }
+  .social-icon li a i {
+    color: #d2d2db;
+  }
