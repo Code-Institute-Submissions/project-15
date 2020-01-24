@@ -15,27 +15,96 @@ body {
     margin:0;
     position:relative;
 }
+/*
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #f05f40;
+    color: white;
+}
+
+.navbar-btn:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+*/
+
 .container {
     height: 100%;
   }
 
-.font {
-    font-size: 3;
-}
 
 .navbar {
     width: 100%;
     font-size: 3px;
     background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%);
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 0px;
     padding-bottom: .5em;
-    display: inline-block;
+    margin-bottom: 0px;
     height: 120px;
     margin-top: 0px;
     margin-left: 0px;
     padding: 0;
     justify-content: space-around;
     align-items: center;
+    position: absolute;
 
     
 }
@@ -73,13 +142,14 @@ li .nav-link {
   
 }
 */
+
 .navbar-bg {
     border: 0;
     text-transform: uppercase;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 0.1em;
     font-size: larger;
-    background-color: chartreuse;
+    background-color: burlywood; 
 }
 
 
@@ -106,6 +176,7 @@ li .nav-link {
     margin-left: 1rem!important;
 }
 
+
 .navbar-expand-lg .navbar-nav > li > a {
     color: black;
     display: block;
@@ -114,6 +185,7 @@ li .nav-link {
 
 
 }
+/*
 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -126,10 +198,12 @@ li .nav-link {
     margin-bottom: 0;
     list-style: none;
 }
+
  
 .navbar-nav li {
     margin: 0;
 } 
+*/
 
 .responsive-image {
     width: 90px;
@@ -142,9 +216,6 @@ li .nav-link {
     display: inline-block;
 
 }
-
-
-
 
 .navbar li {
     display: inline-block;
@@ -220,7 +291,7 @@ ul {
       li{
         margin: 0;
       }
-     /* makes sure that the a tag will take the entire screen*/
+     /* makes sure that the a tag will take the entire screen */
       a{
         display: block;
       }
@@ -287,8 +358,8 @@ ul {
     width:0px;  
     height:0px; 
 
-/*Scale down will take the necessary specified space that is 150px x 100px without stretching the image*/
-    object-fit:scale-down;
+/*Scale down will take the necessary specified space that is 150px x 100px without stretching the image */
+    object-fit: scale-down;
 }
 
 
