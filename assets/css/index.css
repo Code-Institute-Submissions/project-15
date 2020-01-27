@@ -1,20 +1,24 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    
 }
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 70px;
+    padding-top: 70px; 
     text-align: left;
     /*overflow-x:hidden;*/
     width: 100%;
-    height: 100%;
+    height: 100%; 
     max-width: 100%;
-    margin:0;
+    margin: 0;
     position:relative;
+    padding-right: 0px;
+    padding-left: 0px;
 }
+
+
 /*
 
 .navbar {
@@ -101,6 +105,7 @@ body {
     height: 120px;
     margin-top: 0px;
     margin-left: 0px;
+    margin-right: 0px;
     padding: 0;
     justify-content: space-around;
     align-items: center;
@@ -114,6 +119,7 @@ body {
   /*For always expanded or extra full navbars, ensure content aligns itself
     properly vertically. Can be easily overridden with flex utilities. */
      align-items: center;
+    
 }
 
 
@@ -149,9 +155,8 @@ li .nav-link {
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 0.1em;
     font-size: larger;
-    background-color: burlywood; 
+    background-color: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%); 
 }
-
 
 .fixed-top {
     position: fixed;
@@ -186,6 +191,7 @@ li .nav-link {
 
 }
 /*
+
 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -199,15 +205,15 @@ li .nav-link {
     list-style: none;
 }
 
- 
+
 .navbar-nav li {
     margin: 0;
 } 
 */
 
 .responsive-image {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -2px;
@@ -252,6 +258,9 @@ ul {
     text-align: center;
 
 }
+
+ 
+ 
 
 
 .navbar-toggler {
@@ -410,7 +419,8 @@ ul {
     }
 
     .row {
-        margin-left: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
         
     }
 
