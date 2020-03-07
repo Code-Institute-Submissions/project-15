@@ -1,8 +1,9 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    
 }
+
 
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -13,30 +14,55 @@ body {
     height: 100%;
     max-width: 100%;
     margin:0;
+    padding-right: 0px;
+    padding-left: 0px;
+    position:relative;
 }
 
-.container {
-    height: 100%;
-  }
+/*
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}  
 
 .font {
     font-size: 3;
 }
+*/
+
+
 
 .navbar {
     width: 100%;
     font-size: 3px;
     background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%);
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 0px;
     padding-bottom: .5em;
     display: inline-block;
-    height: 120px;
     margin-top: 0px;
     margin-left: 0px;
+    margin-right:0px;
     padding: 0;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
 
     
 }
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+  /*For always expanded or extra full navbars, ensure content aligns itself
+    properly vertically. Can be easily overridden with flex utilities. */
+     align-items: center;
+    
+}
+
+
+
 .navbar > a {
     display: inline-block;
     vertical-align: top;
@@ -48,7 +74,8 @@ body {
 li {
     list-style: none;
     float:left;
-    }
+    
+}
 
 .navbar-bg {
     border: 0;
@@ -56,6 +83,7 @@ li {
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 0.1em;
     font-size: larger;
+    background-color: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%);
 }
 
 
@@ -88,26 +116,12 @@ li {
     padding: 0px 16px;
 
 }
-.navbar-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
- 
-.navbar-nav li {
-    margin: 0;
-} 
+
+
 
 .responsive-image {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -2px;
@@ -144,7 +158,7 @@ ul {
     flex-direction: row-reverse!important;
 }
  
-.navbar-nav>li {
+  .navbar-nav>li {
     display: inline-block;
     text-align: center;
 
@@ -153,10 +167,10 @@ ul {
 
 .navbar-toggler {
     position: absolute;
-    top: 0px;
+    top: 20px;
     right: 0px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(175, 30, 30, 0.37);
     font-size: 24px;
 
 }
@@ -180,6 +194,17 @@ ul {
         padding-top: 0px;
         
     }
+    ul{
+        flex-direction: column;
+      }
+    
+      li{
+        margin: 0;
+      }
+     /* makes sure that the a tag will take the entire screen */
+      a{
+        display: block;
+      }
 }
 
     .nav-link {
@@ -198,6 +223,10 @@ ul {
     .nav-link:hover {
         color: rgba(255, 255, 255, 1);
     } 
+
+
+
+ /* end of the navbar */   
     
 
 
