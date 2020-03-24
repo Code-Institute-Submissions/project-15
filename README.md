@@ -23,7 +23,7 @@ GETTING STARTED / DEPLOYMENT <br />
 
 TECHNOLOGIES USED <br />
 
-<li>This project uses <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML5>and<a href="https://www.w3.org/Style/CSS/">CSS3>programming languages</li>
+<li>This project uses <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML5</a>and<a href="https://www.w3.org/Style/CSS/">CSS3</a>programming languages</li>
 
 <li>AWSCloud9 - this developer uses Cloud9 for their IDE while writting, running and debugging code</li>
 
