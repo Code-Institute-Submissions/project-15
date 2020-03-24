@@ -12,7 +12,7 @@ This is a 'digital framework' I have developed for my project. It is a front-end
 
 DEMO <br />
 
-A demo of this site is available <a href="index.html">here</a>
+A demo of this site is available <a href="https://mirofrankovic.github.io/project-1/">here</a>
 
 This app is hosted by GitHub Pages, a static site hosting service which supports client-side code. It does not support server-side code in languages like PHP or Python.
 
@@ -23,7 +23,7 @@ GETTING STARTED / DEPLOYMENT <br />
 
 TECHNOLOGIES USED <br />
 
-<li>This project uses HTML and CSS programming languages</li>
+<li>This project uses <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML5>and<a href="https://www.w3.org/Style/CSS/">CSS3>programming languages</li>
 
 <li>AWSCloud9 - this developer uses Cloud9 for their IDE while writting, running and debugging code</li>
 

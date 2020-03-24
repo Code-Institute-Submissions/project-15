@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    
+    margin: 0;
 }
 
 body {
@@ -16,6 +16,7 @@ body {
     position:relative;
     padding-right: 0px;
     padding-left: 0px;
+
 }
 
 .navbar {
@@ -208,62 +209,55 @@ ul {
     .logo:hover,
     .nav-link:hover {
         color: rgba(255, 255, 255, 1);
-    } 
+    }
+    
+    
+    /* Content */
+
+    .container-wrapper--leafimage{
+        padding-bottom:0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 100%; 
+        height: 100%; 
+        position: relative; 
+        display: inline-block;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 100% 100%;
+        background-color: peru;
+
+    }
+
+   
+
+  .container-fluid {
+      padding-left: 0px;
+      padding-right: 0px;
+  }  
+
+  .midbutton{
+      padding-bottom: 10px;
+  }
  
 
 .cover{
     width:0px;  
     height:0px; 
-
 /*Scale down will take the necessary specified space that is 150px x 100px without stretching the image */
     object-fit: scale-down;
 }
 
 
-/*
-.cover {
-    object-fit: cover;
-  }
-*/
-
-
-
-
-
-/* Declare heights because of positioning of img element */
-  .carousel-caption {
-  bottom: 10rem;   /* text next to the image */
-  z-index: 10;
-}
-
-.carousel-caption h1 {
-    color: rgb(19, 12, 107);
-}
-.carousel-caption p {
-    color:orangered;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-    height: 30rem;  /* space above and below image in carousel*/
-    background-color: white;
-  }
-  .carousel-item > img {
-    position: absolute;
-    top: 0;
-  
-    left: 0;
-    min-width: 100%;
-    height: 30rem;
-  }
-
-    html{
+     html{
         height:100%;
         }
     .img-fluid {
          background: url(bike.jpg) no-repeat center top; 
          background-size: cover; 
-         height:70vh;     
+         height:70vh; 
+         width: 100%;    
     }
 
     .row {
@@ -287,7 +281,7 @@ ul {
     padding-bottom: 40px;
   }
 
-  .col-lg-4 {
+  .col-md-4 {
       padding-bottom: 0px;
   }
 
@@ -298,31 +292,36 @@ ul {
 
 
   .leafimage {
-      padding-bottom: 2.8%;
+      padding-bottom:0%;
       padding-left: 0%;
       padding-right: 0%;
-      width: 100%;
-      height: auto;
-      
+      width: 100%; 
+      height: 100%; 
+      position: relative; 
+      display: inline-block;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: 100% 100%;
+      background-color: peru;
+    }
 
+  img {
+      display: block;
   }
+  
 
   .leafimage-text{
      
       margin: 0%;
-   }
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate( -50%, -50% );
+      text-align: center;
 
-   .leafimage-head{
-       padding-left: 40%;
+      font-weight: bold;
    }
-   .leafimage-mid {
-       padding-left: 40%;
-   }
-
-   .leafimage-tlac{
-       padding-left: 40%;
-   }
-
    /*
    .container-wrapper {
     background: url("../img/leaf.jpg") no-repeat center center;
@@ -332,11 +331,22 @@ ul {
 
    */
 
-  
-  
-    
+
+   .lead {
+       color: greenyellow;
+   }
+
+   .gallery{
+       padding-top: 0;
+       padding-bottom: 0px;
+   }
+   .text-uppercase {
+       padding-bottom: 0px;
+   }
 
 
+
+   
 
 
   

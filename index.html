@@ -85,9 +85,9 @@
 
   <!--<main id="main-container">  -->
     
-  
+  <div class="container-fluid">
 
-      <div class="carousel fade-carousel slide carousel-fadecarousel" id="myCarousel" data-ride="carousel">
+      <section class="carousel fade-carousel slide carousel-fadecarousel" id="myCarousel" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -130,7 +130,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </section>
 
 
       <!-- Marketing messaging and featurettes
@@ -140,51 +140,52 @@
  <!-- <div class="container-body marketing">  -->
 
         <!--Three columns of text below the carousel -->
-        <div class="container-fluid gallery-content-container">
-         <div class="justify-content-center">
-            
-            <div class="text-uppercase text-center">Gallery</div>
-            
-          </div> 
-        </div>
-      <!--<div class="container marketing"> -->
-
-  <div class="marketing">  
+  <section class="leafimage">
    
-    <div class="row">
-      <div class="container-body">
-          <div class="col-lg-4">
+     <div class="container">
             
-            <img class="rounded-circle" src="assets/img/house.jpg" alt="Generic placeholder image" width="350" height="350">
-          </div> <!--/.col-md-4 -->
-      </div>    
+            <div class="text-uppercase text-center">
+             <h2>Gallery</h2>
+            </div>
+        <!-- </div>-->
+        <!-- </section>  -->     
+        <!--<div class="container marketing"> -->
 
 
-        <div class="container-body">
-            
-          <div class="col-lg-4">
-            
-            <img class="rounded-circle" src="assets/img/room.jpg" alt="Generic placeholder image" width="350" height="350">
-            <div class="container"> 
-              <div class="carousel-caption text-md-center">
-                <p><a class="btn btn-sm btn-primary" href="gallery.html" role="button">View Gallery &raquo;</a></p>
-              </div>
-            </div> 
-            
-          </div> <!--/.col-md-4 -->
-        </div>
 
-        <div class="container-body">
-          <div class="col-lg-4">
-            
-            <img class="rounded-circle" src="assets/img/heat.jpg" alt="Generic placeholder image" width="350" height="350">
-            
-          </div> <!--.col-md-4 -->
-        </div>
-
+        <!-- <section class="leafimage"> --> 
+        <!--<div class="container-wrapper">-->
+    <div style="float:left;margin-right:5px;">
+      <img class="rounded-circle" src="assets/img/house.jpg" alt="Generic placeholder image" width="350" height="350">
+      <p style="text-align:center;">This is image 1</p>
+    </div> <!--/.col-md-4 -->
           
-    </div><!-- /.row -->
-  </div><!--/.container-fluid-->
+          <!-- <div class="container-body"> -->
+    
+    
+    <div style="float:left;margin-right:5px;">
+      <img class="rounded-circle" src="assets/img/room.jpg" alt="Generic placeholder image" width="350" height="350">
+           
+         <p><a class="btn btn-sm btn-primary" href="gallery.html" role="button">View Gallery &raquo;</a></p>
+    </div>
+  
+  
+         <!-- <div class="container-body"> -->
+  
+
+    <div style="float:left;margin-right:5px;">
+      <img class="rounded-circle" src="assets/img/heat.jpg" alt="Generic placeholder image" width="350" height="350">
+    </div> <!--.col-md-4 -->
+
+    
+
+   
+</div>      
+  
+   </section> 
+               
+
+
   
 
 
@@ -193,75 +194,73 @@
       <!--  <hr class="featurette-divider"> -->
 
 
-    <div class="container-body container-fluid">
+   <section class="leafimage">
+      
         
-      <div class="row featurette">
-          <div class="col-md-6 order-md-2">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-fluid" src="assets/img/bike.jpg">
+       </div>
+       <div class="col-md-6">
           <h2 class="featurette-heading">Find Your Place:<span class="text-muted">Manchester</span></h2>
           <p class="lead">Find Manchester as home to one of Europe's largest student population.</p>
-          </div>
-          <div class="col-md-6">
-              <img data-src="holder.js/500x500/auto" alt="bike" class="featurette-image img-thumbnail mx-auto" src="assets/img/bike.jpg">
-              
-          </div>
+       </div>
           
-      </div> 
+       </div> 
+      
+    </section>   
 
-        <hr class="featurette-divider">
+ </div> <!--////////////////// Container-fluid ////////////////////-->
 
-        <div class="row featurette text-left">
-          <div class="col-md-6 order-md-2">
-            <h4 class="featurette-heading"><span class="text-muted">VaniliaLemon</span></h4>
+
+
+    <!--  <hr class="featurette-divider"> -->
+
+    <section class="leafimage container-fluid"  style="background-image: url(assets/img/us.jpg)" width="500" height="400"> 
+      
+       <!--<div class="row featurette text-left">
+          <div class="col-md-6 order-md-2"> -->
+        <div class="aboutus">
+          <div class="wrapper-out">
+            <div class="featurette-heading">
+             <h2>VaniliaLemon</h2>
+            </div>
             <p class="lead">Our property is in key location with great access to the universties. Located in the south of Manchester.</p>
             <p class="lead">The accomodation is a good base for exploring the beautiful areas such as Didsbury and Chorlton.</p>
             <p><a class="btn btn-lg btn-primary" href="aboutus.html" role="button">About Us &raquo;</a></p>
           </div>
-          <div class="col-md-6">
+       <!--  <div class="col-md-6">
             <img data-src="holder.js/500x500/auto" alt="milky-way" class="img-thumbnail featurette-image" src="assets/img/milky-way.jpg">
             <milky-way class="jpg"></milky-way>
-          </div>
+          </div> -->
         </div>
+    </section>
 
-       <!-- <hr class="featurette-divider"> -->
+      <!--<hr class="featurette-divider"> -->
 
-        <!--<div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">Location:<span class="text-muted">International</span></h2>
-            <p class="lead">Sleek living spaces and bold social areas. VaniliaLemon student accomodation delivers sophisticated style with modern design.</p>
-          </div>
-          <div class="col-md-5">
-            <img data-src="holder.js/500x500/auto" alt="leaf" class="featurette-image img-fluid mx-auto" src="assets/img/leaf.jpg">
-            <leaf class="jpg"></leaf>
-          </div>
-        </div> -->
-      
-       <div class="container-wrapper">
-        <div class="leafimage"> 
-          <img class="featurette-image img-thumbnail" src="assets/img/pool.jpg">  
-        <!--  <div class="container about-content-container"> -->
-          <div class="carousel-caption text-md-center leafimage-text"> 
-              <div class="leafimage-head text-center">
-              <h1>Sharing a house or student digs?</h1>
-              </div>
-              <div class="leafimage-mid">
-              <p>We create a space for all students in Manchester.</p>
-              </div>
-              <div class=leafimage-tlac>
-              <p><a class="btn btn-lg btn-primary" href="map.html" role="button">Contact Us</a></p>
-              </div>
+       
+  
+   <!-- <section class="container-body container-fluid"> --> 
+    <section class="leafimage container-fluid" style="background-image: url(assets/img/pool.jpg)">
+          
+    
+          <div class="aboutus">
+            <div class="wrapper-out">
+              <div class="featurette-heading">
+                  <h2>We create a space for all students in Manchester</h2>
+                  <a class="btn btn-lg btn-primary" href="map.html" role="button">Contact Us</a>
+              </div>  
             </div>
           </div>
-        </div>
-    
-
-      </div>  <!--Photo content container finish-->
+    </section>
+    </div>  <!--Photo content container finish-->
 
        <!-- <hr class="featurette-divider"> -->
         <!-- /END THE FEATURETTES -->
 
       <!-- /.container -->
 
-  
+   <!--container loaded-->
   
       <!-- FOOTER -->   
     

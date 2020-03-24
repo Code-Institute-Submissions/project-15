@@ -231,6 +231,13 @@ ul {
 /*content */    
 
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  } 
+  
+
+
 .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;

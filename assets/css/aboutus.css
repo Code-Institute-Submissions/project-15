@@ -213,6 +213,13 @@ ul {
 /* Content */
 
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  } 
+  
+
+
 .container-wrapper {
     background: url("../img/logo2-navbar.jpg") no-repeat center center;
     background-size: contain;

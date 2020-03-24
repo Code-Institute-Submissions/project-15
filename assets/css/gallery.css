@@ -232,6 +232,13 @@ ul {
 /* content */
 
 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+} 
+
+
+
 .cover{
     width:0px;  
     height:0px; 

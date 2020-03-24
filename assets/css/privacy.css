@@ -241,6 +241,13 @@ ul {
 
 /* Content */
 
+
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+} 
+
 .text-uppercase {
     font-family:proxima-nova, sans-serif !important;
     font-style: normal;
@@ -258,6 +265,7 @@ p {
   padding-top: 20px;
 
 }
+
 
 
 
