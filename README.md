@@ -1,5 +1,9 @@
 VaniliaLemon | A Student House 
+
+
 <br />
+
+
 Milestone Project 1
 
 This is a 'digital framework' I have developed for my project. It is a front-end website that provides a basic information for students seeking a private accomodation in Manchester with:
@@ -23,29 +27,29 @@ GETTING STARTED / DEPLOYMENT <br />
 
 TECHNOLOGIES USED <br />
 
-<li>This project uses <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML5</a>and<a href="https://www.w3.org/Style/CSS/">CSS3</a>programming languages</li>
+<li>This project uses <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML5</a> and <a href="https://www.w3.org/Style/CSS/">CSS3</a>programming languages</li>
 
-<li>AWSCloud9 - this developer uses Cloud9 for their IDE while writting, running and debugging code</li>
+<li><a href="https://aws.amazon.com/cloud9/">AWSCloud9</a> - this developer uses Cloud9 within an Ubuntu based workspace using a mobile firstapproach for their IDE while writting, running and debugging code</li>
 
-<li>BootstrapCDN</li>
+<li><a href="https://www.bootstrapcdn.com/">BootstrapCDN</a></li>
 
 The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily. The project also uses BootstrapCDN to provide icons from FontAwesome.
 
-<li>Popper.js</li>
+<li><a href="https://popper.js.org/"></a>Popper.js</li>
 
 
 
-<li>JavaScript</li>
+<li><a href="https://www.javascript.com/"></a>JavaScript</li>
 
 
 
-<li>jQuery</li>version-3.4.1.js 
+<li><a href="https://jquery.com/"></a>jQuery</li>version-3.4.1.js 
 
 Front End languages that give the application structure, style and interactivity
 
-<li>Font Awesome</li>
+<li><a href="https://fontawesome.com/">Font Awesome</a></li>
 
-<li>Git $ GitHub</li>
+<li>To ensure responsivness of the site all changes were tested using Inspect Module in Google Chrome Browser. Having commited all changes to Git, the site was deployed to <a href="https://github.com/">GitHub</a></li>
 
 Git used for the Version control and GitHub used as hosting service for Git Repositories of this site.
 
