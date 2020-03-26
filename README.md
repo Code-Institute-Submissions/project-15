@@ -1,10 +1,8 @@
-VaniliaLemon | A Student House 
-
+**VaniliaLemon | A Student House**
 
 <br />
 
-
-Milestone Project 1
+**Milestone Project 1**
 
 This is a 'digital framework' I have developed for my project. It is a front-end website that provides a basic information for students seeking a private accomodation in Manchester with:
 
@@ -14,18 +12,18 @@ This is a 'digital framework' I have developed for my project. It is a front-end
 4. A form to send
 5. A basic information for students included our basic policy and terms of conditions
 
-DEMO <br />
+**DEMO** <br />
 
 A demo of this site is available <a href="https://mirofrankovic.github.io/project-1/">here</a>
 
 This app is hosted by GitHub Pages, a static site hosting service which supports client-side code. It does not support server-side code in languages like PHP or Python.
 
-GETTING STARTED / DEPLOYMENT <br />
+**GETTING STARTED / DEPLOYMENT** <br />
 
 <li>If you wish to run this site locally, please clone or download this repo. You can then run index.html or open index.html in your browser.</li>
 <li>If you wish to deploy a live version of this site, then you will need to create your own GitHub repo. Navigate to settings and enable GitHub Pages by setting the Source to master branch.
 
-TECHNOLOGIES USED <br />
+**TECHNOLOGIES USED** <br />
 
 <li>This project uses <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML5</a> and <a href="https://www.w3.org/Style/CSS/">CSS3</a>programming languages</li>
 
@@ -35,25 +33,31 @@ TECHNOLOGIES USED <br />
 
 The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily. The project also uses BootstrapCDN to provide icons from FontAwesome.
 
-<li><a href="https://popper.js.org/"></a>Popper.js</li>
+<li><a href="https://popper.js.org/">Popper.js</a></li>
 
 
 
-<li><a href="https://www.javascript.com/"></a>JavaScript</li>
+<li><a href="https://www.javascript.com/">JavaScript</a></li>
 
 
 
-<li><a href="https://jquery.com/"></a>jQuery</li>version-3.4.1.js 
+<li><a href="https://jquery.com/">jQuery</a> version-3.4.1.js</li>
 
-Front End languages that give the application structure, style and interactivity
+Front End languages that give the application structure, style and interactivity.
 
 <li><a href="https://fontawesome.com/">Font Awesome</a></li>
 
-<li>To ensure responsivness of the site all changes were tested using Inspect Module in Google Chrome Browser. Having commited all changes to Git, the site was deployed to <a href="https://github.com/">GitHub</a></li>
+To ensure responsivness of the site all changes were tested using Inspect Module in Google Chrome Browser. Having commited all changes to Git, the site was deployed to <a href="https://github.com/">GitHub</a>.
 
 Git used for the Version control and GitHub used as hosting service for Git Repositories of this site.
 
-TESTING <br />
+**TESTING** <br />
+
+<li>AUTOMATED TESTING</li>
+VALIDATION SERVICES
+<ul>Validation services were used to ensure the the validity of the website code. </ul>
+<li><a href="https://validator.w3.org/"></a></li>
+<li><a href="https://jigsaw.w3.org/css-validator/"></a></li>
 
 Testing information can be found in testing.md file
 
@@ -62,17 +66,17 @@ Manual testing was undertaken for this application and satisfactorily passed. A 
 <ul>Testing the code to call the google API and the ability to scroll, zoom and click on map marker for location details. </ul>
 <ul>Testing buttons and hyperlinks throughout the site. </ul>
 
-Deployment <br />
+**DEPLOYMENT** <br />
 
 The site was developed using the cloud9 IDE and uses git for version control and pushed to GitHub.
 
-To deploy dashboard to GitHub Pages from its GitHub repository( https://mirofrankovic.github.io/project-1/)
+To deploy dashboard to GitHub Pages from its GitHub repository (https://mirofrankovic.github.io/project-1/)
 
-AUTHOR <br />
+**AUTHOR** <br />
 
-Miroslav Frankovic - This project was completed as part of Code Institute's Web Development project for Stream 1 in June 2018.
+Miroslav Frankovic - This project was completed as part of Code Institute's Web Development project for Stream 1 in 2020.
 
-ACKNOWLEDGMENT <br />
+**ACKNOWLEDGMENT** <br />
 
 <li>Template by Bootstrap</li>
 <li>Inspiration for this project came from my friend Emilia Li</li>
