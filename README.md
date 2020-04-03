@@ -54,14 +54,14 @@ Git used for the Version control and GitHub used as hosting service for Git Repo
 **TESTING** <br />
 
 <li>AUTOMATED TESTING</li>
-VALIDATION SERVICES
+<ul>VALIDATION SERVICES</ul>
 <ul>Validation services were used to ensure the the validity of the website code. </ul>
-<li><a href="https://validator.w3.org/"></a></li>
-<li><a href="https://jigsaw.w3.org/css-validator/"></a></li>
+<li><a href="https://validator.w3.org/">Markup Validation</a></li>
+<li><a href="https://jigsaw.w3.org/css-validator/">CSS Validation</a></li>
 
 Testing information can be found in testing.md file
 
-Manual testing was undertaken for this application and satisfactorily passed. A sample of the tests conducted are as follows:
+<li>Manual testing was undertaken for this application and satisfactorily passed. A sample of the tests conducted are as follows:</li>
 
 <ul>Testing the code to call the google API and the ability to scroll, zoom and click on map marker for location details. </ul>
 <ul>Testing buttons and hyperlinks throughout the site. </ul>
@@ -81,3 +81,7 @@ Miroslav Frankovic - This project was completed as part of Code Institute's Web 
 <li>Template by Bootstrap</li>
 <li>Inspiration for this project came from my friend Emilia Li</li>
 <li>etc</li>
+
+**text**
+
+Thank you Guido...text

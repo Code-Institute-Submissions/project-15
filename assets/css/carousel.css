@@ -46,24 +46,40 @@ body, html {
 /* Carousel base class */
 .carousel {
   margin-bottom: 0rem;
+ /* width: 800px; */
+  height: 750px;
 }
+
+.carousel img {
+  width:100% !important;
+  min-width:100 !important;
+  height: auto;
+}
+
+.carousel-inner {
+  height: 100%;
+
+}
+
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 10rem;
-  z-index: 10;
-  padding-left: 35%;
+  bottom: 20rem;
+  z-index: 20;
+  padding-left: 20%;
+  
   
 }
 
 
 .carousel-caption h1 {
-  color: rgb(19, 12, 107);
-  font-size: 20px;
+  color: rgb(231, 235, 21);
+  font-size: 50px;
 
 }
 .carousel-caption p {
-  color:orangered;
-  font-size: 15px;
+  color:rgb(14, 241, 52);
+  font-size: 25px;
   
 }
 
@@ -71,14 +87,24 @@ body, html {
 .carousel-item {
   height: 30rem;  /* space above and below image in carousel*/
   background-color: white;
+  background-size: cover;
+  background-position: 100% 100%;
+  width: 100%;
+  height: 100%;
+  
 }
 .carousel-item > img {
-  position: absolute;
-  top: 0;
-
+ /* position: absolute;*/
+  padding-top: 0;
+  padding-bottom: 0;
   left: 0;
-  min-width: 100%;
-  height: 30rem;
+  width: 100%; 
+  object-fit:cover;
+  height:750px !important;
+  width:800px;
+  
+
+  height: auto;
 }
 
 
@@ -126,7 +152,7 @@ body, html {
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
-  /* Bump up size of carousel content */
+  /* Bump up size of carousel content  text*/
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;

@@ -228,7 +228,12 @@ ul {
 /*end of the navbar */
 
    
-/*content */    
+/*content */  
+
+.text-center li {
+    color: blue;
+    font-size: 25px;
+}
 
 
 .container-fluid {
@@ -264,6 +269,9 @@ ul {
 #map {
     margin-top: 20px;
 }
+
+
+
 
 
 
