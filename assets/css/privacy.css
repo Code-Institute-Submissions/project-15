@@ -45,7 +45,7 @@ body {
   margin-top: 0px;
   margin-left: 0px;
   margin-right:0px;
-  padding: 0;
+  padding: 15px;
   justify-content: space-around;
   align-items: center;
   position: absolute;
@@ -103,6 +103,14 @@ li {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -2px;
+  text-align: center;
+  position: relative;   
 }
 
 .ml-3 {
@@ -119,17 +127,6 @@ li {
 
 
 
-.responsive-image {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-top: -2px;
-  text-align: center;
-  position: relative;
-  display: inline-block;
-
-}
 
 .navbar li {
   display: inline-block;
@@ -172,6 +169,7 @@ ul {
   cursor: pointer;
   color: rgba(175, 30, 30, 0.37);
   font-size: 24px;
+  margin-right: 1rem;
 
 }
 
@@ -179,7 +177,7 @@ ul {
   display: block;
 }
 
-
+/*
 
 @media screen and (min-width: 768px) {
   .navbar li a {
@@ -201,14 +199,24 @@ ul {
     li{
       margin: 0;
     }
-   /* makes sure that the a tag will take the entire screen */
+   /* makes sure that the a tag will take the entire screen 
     a{
       display: block;
     }
 }
+*/
 
   .nav-link {
-      margin-left: 40px;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 15px;
+  }
+
+  .nav {
+    padding-right: 1.5rem;
+  }
+  .nav li {
+    padding-right: 10px;
   }
 
   .logo {
@@ -331,10 +339,12 @@ p {
 }
 
 
-
+/*
 .social-icon li a:hover {
   background-color: rgb(130, 167, 212);
 }
+
+*/
 
 .social-icon li a {
   display: inline-block;
@@ -348,6 +358,17 @@ p {
   color: #d2d2db;
 }
 
+.social-icon li a {
+  width: 56px;
+  height: 56px;
+}
+
+li {
+  list-style: none;
+  float:left; 
+  padding: 15px;
+  
+}
 
 
 

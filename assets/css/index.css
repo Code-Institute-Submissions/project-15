@@ -30,21 +30,14 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 0;
+    padding: 15px;
     justify-content: space-around;
     align-items: center;
     position: absolute;
 
     
 }
-.navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 1;
-  /*For always expanded or extra full navbars, ensure content aligns itself
-    properly vertically. Can be easily overridden with flex utilities. */
-     align-items: center;
-    
-}
+
 
 .navbar > a {
     display: inline-block;
@@ -54,13 +47,14 @@ body {
     line-height: 105px; 
 }
 
-li {
-    list-style: none;
-    float:left; 
-    
+.carousel-indicators li {
+  list-style: none;
+  float:left; 
+  padding: 1px;
+  background-color:blue;
+  
+  
 }
-
-
 .navbar-bg {
     border: 0;
     text-transform: uppercase;
@@ -78,6 +72,7 @@ li {
     z-index: 1030;
 }
 
+
 .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
@@ -86,7 +81,15 @@ li {
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
-    
+
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -2px;
+    text-align: center;
+    position: relative;   
 }
 
 .ml-3 {
@@ -100,19 +103,6 @@ li {
     text-decoration: none;
     padding: 0px 16px;
 
-
-}
-
-
-.responsive-image {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -2px;
-    text-align: center;
-    position: relative;
-    display: inline-block;
 
 }
 
@@ -156,6 +146,7 @@ ul {
     cursor: pointer;
     color: rgba(175, 30, 30, 0.37);
     font-size: 24px;
+    margin-right: 1rem;
 
 }
 
@@ -164,6 +155,7 @@ ul {
 }
 
 
+/*
 
 @media screen and (min-width: 768px) {
     .navbar li a {
@@ -187,16 +179,50 @@ ul {
         margin: 0;
       }
      /* makes sure that the a tag will take the entire screen */
+     /*
       a{
         display: block;
       }
 
 }
+*/
 
     .nav-link {
-        margin-left: 40px;
-        
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 15px;
     }
+
+    .nav {
+     padding-right: 1.5rem;
+     /*width: 100%; */
+     /*padding: 0px 50px; */
+     box-sizing: border-box;
+    /* display: block*/
+    }
+
+    .nav ul{
+      margin: 0;
+      padding: 0;
+      float: right;
+    }
+    
+    .nav li {
+     padding-right: 10px;
+    }
+    
+
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 0px;
+      transition: 0.5s;
+      }
+
+
+
+
+    
 
     .logo {
         margin-top: 0;
@@ -215,8 +241,48 @@ ul {
     /* Content */
 
 
-   
+    /*----------------media query--------------*/
 
+   /* 
+
+    @media screen and (max-width: 1122px) {
+      body {
+        background-color: rgba(95, 95, 238, 0.39);
+        
+      }
+    }
+
+
+    */
+    
+    /*---------------end media query----------------*/
+
+    /*
+    .rounded-circle {         (rounded circle......................)
+      width:100%; 
+      height:100%; 
+    }
+
+    */
+
+    .col-md-4 img {
+        display: inline-block;
+        max-width: 100%;
+    }
+
+
+
+    .post-content {
+      top:0;
+      left:0;
+      position: absolute;
+  }
+  
+    .thumbnail{
+      position:relative;
+  
+  }
+    
   .container-fluid {
       padding-left: 0px;
       padding-right: 0px;
@@ -245,11 +311,7 @@ ul {
          width: 100%;    
     }
 
-    .row {
-        margin-left: 0px;
-        margin-right: 0px;
-        
-    }
+    
 
  
      
@@ -275,6 +337,11 @@ ul {
       padding-bottom: 100px;
   }
 
+  .marketing .col-md-4 {
+
+    text-align: center;
+  }
+
 
   .leafimage {
       padding-bottom:0%;
@@ -293,6 +360,8 @@ ul {
 
   img {
       display: block;
+      margin: auto;
+      
   }
   
 
@@ -316,9 +385,12 @@ ul {
 
    */
 
+   
+
 
    .lead {
-       color: greenyellow;
+       color: brown;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
 
    .gallery{
@@ -329,40 +401,54 @@ ul {
        padding-bottom: 0px;
    }
 
+   
 
 
 
     /* Three image containers (use 25% for four, and 50% for two, etc) */
+    /*
 .column {
     float: left;
     width: 33.33%;
     padding: 5px;
   }
+  .col-md-7 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  */
   
     /* Clear floats after image containers */
+    /*
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
+  */
 
   .row {
     display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   
+  /*
   .column {
     flex: 33.33%;
     
   }
 
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+  /*
 @media screen and (max-width: 768px) {
     .column {
       width: 100%;
     }
   }
 
-
+*/
    
 
 
@@ -439,19 +525,42 @@ li a:before {
   }
   
 
-
+/*
   .social-icon li a:hover {
     background-color: rgb(130, 167, 212);
   }
+  */
 
 .social-icon li a {
     display: inline-block;
     font-size: 30px;
     line-height: 38px;
-    /*width: 35px; */
+    width: 56px; 
     text-decoration: none;
     outline: none;
   }
   .social-icon li a i {
     color: #d2d2db;
+    
   }
+
+  .social-icon li a {
+    width: 56px;
+    height: 56px;
+  }
+
+  li {
+    list-style: none;
+    float:left; 
+    padding: 15px;
+    
+}
+
+.container-footer ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 5px;
+      transition: 0.5s;
+
+
+}
