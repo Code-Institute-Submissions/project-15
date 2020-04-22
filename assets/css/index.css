@@ -237,8 +237,13 @@ ul {
         color: rgba(255, 255, 255, 1);
     }
     
+
+
     
     /* Content */
+
+
+
 
 
     /*----------------media query--------------*/
@@ -272,17 +277,6 @@ ul {
 
 
 
-    .post-content {
-      top:0;
-      left:0;
-      position: absolute;
-  }
-  
-    .thumbnail{
-      position:relative;
-  
-  }
-    
   .container-fluid {
       padding-left: 0px;
       padding-right: 0px;
@@ -305,7 +299,7 @@ ul {
         height:100%;
         }
     .img-fluid {
-         background: url(bike.jpg) no-repeat center top; 
+       /*  background: url(bike.jpg) no-repeat center top; */
          background-size: cover; 
          height:70vh; 
          width: 100%;    
@@ -385,14 +379,6 @@ ul {
 
    */
 
-   
-
-
-   .lead {
-       color: brown;
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
-   }
-
    .gallery{
        padding-top: 0;
        padding-bottom: 0px;
@@ -449,6 +435,102 @@ ul {
   }
 
 */
+
+/* Text in the image */
+
+
+
+.post-content_1 .lead {
+  font-family: initial;
+  font-size: 30px;
+  color: white;
+
+}
+
+
+
+.post-content {
+  top:20px;
+  left:20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  /*color: white; */
+  text-align: center;
+ /* padding-left: 20px;
+  padding-right: 20px;
+  transform: translate(-50%, -50%);*/
+}
+
+.post-content h2 {
+  padding-top: 30px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(180, 9, 9);
+  font-size: 50px;
+}
+
+.post-content .lead_1 {
+  font-family: initial;
+  font-size: 30px;
+  color: black;
+}
+
+
+.thumbnail{
+  position:relative;
+
+}
+
+.post-content_1 {
+  top:20px;
+  left:20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  /*color: white; */
+  text-align: center;
+ /* padding-left: 20px;
+  padding-right: 20px;
+  transform: translate(-50%, -50%);*/
+
+}
+
+
+
+.button {
+  color: white;
+  background-color:  #2376ae;
+ /* border: none; */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  /*border: 2px solid #e7e7e7;*/
+}
+
+.button a:hover{
+  text-decoration: none;
+}
+
+span {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+ }
+
+
+
+
    
 
 
