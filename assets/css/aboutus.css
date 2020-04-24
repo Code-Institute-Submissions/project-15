@@ -1,239 +1,235 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    
-}
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
-    padding-top: 70px;
-    text-align: left;
-    /*overflow-x:hidden;*/
-    width: 100%;
-    height: 100%; 
-    max-width: 100%;
-    margin:0;
-    position:relative;
-    padding-right: 0px;
-    padding-left: 0px;
-    
-}
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 
+}
 
 .navbar {
-    width: 100%;
-    font-size: 3px;
-    background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%);
-    border: 0px;
-    padding-bottom: .5em;
-    display: inline-block;
-    /*height: 120px; */
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 15px;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
+  width: 100%;
+  font-size: 3px;
+  background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%);
+  border: 0px;
+  padding-bottom: .5em;
+  margin-bottom: 0px;
+  /*height: 120px; */
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 15px;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
 
+  
+}
 
-    
-}
-.navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 1;
-  /*For always expanded or extra full navbars, ensure content aligns itself
-    properly vertically. Can be easily overridden with flex utilities. */
-     align-items: center;
-    
-}
 
 .navbar > a {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 30px;
-    height: 50px;        /* if you want it to take the full height of the bar */
-    line-height: 105px; 
-}
-
-li {
-    list-style: none;
-    float:left;
-    
-}
-
-
-.navbar-bg {
-    border: 0;
-    text-transform: uppercase;
-    font-family: 'Fjalla One', sans-serif;
-    letter-spacing: 0.1em;
-    font-size: larger;
-    background-color: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%);
-}
-
-
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-.navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -2px;
-    text-align: center;
-    position: relative;   
-
-
-
-
-}
-
-.ml-3 {
-    margin-left: 1rem!important;
-}
-
-.navbar-expand-lg .navbar-nav > li > a {
-    color: black;
-    display: block;
-    text-decoration: none;
-    padding: 0px 16px;
-
-}
-
-
-
-.navbar li {
-    display: inline-block;
-    text-align: center;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-  }
-.navbar-nav a{
-    text-decoration: none;
-  }
-
-
-.nav-item {
-    float: right;
-    list-style-type: none;
-  }
-
-  .navbar-nav > li > a {
-    font-size: 20px;
-}
-
-.flex-row-reverse{
-    flex-direction: row-reverse!important;
-}
- 
-  .navbar-nav>li {
-    display: inline-block;
-    text-align: center;
-
-}
-
-.navbar-toggler {
-    position: absolute;
-    top: 20px;
-    right: 0px;
-    cursor: pointer;
-    color: rgba(175, 30, 30, 0.37);
-    font-size: 24px;
-    margin-right: 1rem;
-
-}
-
-.active {
-    display: block;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  height: 50px;        /* if you want it to take the full height of the bar */
+  line-height: 105px; 
 }
 
 /*
 
-@media screen and (min-width: 768px) {
-    .navbar li a {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 0px;
-        
-        align-items: center;
-        margin-right: 0px;
-        flex-direction: row;
-        justify-content: flex-end;
-        padding-top: 0px;
-        
-    }
-    ul{
-        flex-direction: column;
-      }
-    
-      li{
-        margin: 0;
-      }
-     /* makes sure that the a tag will take the entire screen 
-      a{
-        display: block;
-      }
+.carousel-indicators li {
+list-style: none;
+float:left; 
+padding: 1px;
+background-color:blue;
 }
 */
 
-    .nav-link {
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 15px;
+
+.navbar-bg {
+  border: 0;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 0.1em;
+  font-size: larger;
+  background-color: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%); 
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -2px;
+  text-align: center;
+  position: relative;   
+}
+
+.ml-3 {
+  margin-left: 1rem!important;
+}
+
+
+.navbar-expand-lg .navbar-nav > li > a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 0px 16px;
+
+
+}
+
+.navbar li {
+  display: inline-block;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar-nav a{
+  text-decoration: none;
+}
+
+
+.nav-item {
+  float: right;
+  list-style-type: none;
+}
+
+.navbar-nav > li > a {
+  font-size: 20px;
+}
+
+.flex-row-reverse{
+  flex-direction: row-reverse!important;
+}
+
+.navbar-nav>li {
+  display: inline-block;
+  text-align: center;
+
+}
+
+.navbar-toggler {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  cursor: pointer;
+  color: rgba(175, 30, 30, 0.37);
+  font-size: 24px;
+  margin-right: 1rem;
+
+}
+
+.active {
+  display: block;
+}
+
+
+/*
+
+@media screen and (min-width: 768px) {
+  .navbar li a {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0px;
+      
+      align-items: center;
+      margin-right: 0px;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding-top: 0px;
+      
+  }
+
+  ul{
+      flex-direction: column;
     }
 
-    .nav {
-        padding-right: 1.5rem;
-      }
-
-    .nav li {
-        padding-right: 10px;
-      }
-
-
-
-
-    .logo {
-        margin-top: 0;
+    li{
+      margin: 0;
+    }
+   /* makes sure that the a tag will take the entire screen */
+   /*
+    a{
+      display: block;
     }
 
-    .navbar-toggle {
-        display: none;
+}
+*/
+
+  .nav-link {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 15px;
+  }
+
+  .nav {
+   padding-right: 1.5rem;
+   box-sizing: border-box;
+  
+  }
+
+  .nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  .nav li {
+   padding-right: 10px;
+  }
+  
+
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+    transition: 0.5s;
     }
 
-    .logo:hover,
-    .nav-link:hover {
-        color: rgba(255, 255, 255, 1);
-    } 
+  .logo {
+      margin-top: 0;
+  }
 
+  .navbar-toggle {
+      display: none;
+  }
+
+  .logo:hover,
+  .nav-link:hover {
+      color: rgba(255, 255, 255, 1);
+  }
+  
 
 
 /* Content */
 
-
+/*
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
   } 
-  
+  */
 
 
 .container-wrapper {
@@ -294,7 +290,7 @@ ul {
 
 
 
-
+/*
 .photo-heading {
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -304,6 +300,8 @@ ul {
     margin: auto;
     padding-bottom: 50px;
 }
+
+*/
 
 
 .fa {
@@ -332,7 +330,7 @@ ul {
     display: inline-block;
     font-size: 30px;
     line-height: 38px;
-    /*width: 35px; */
+    width: 56px; 
     text-decoration: none;
     outline: none;
   }
@@ -359,6 +357,16 @@ ul {
     padding: 15px;
     
 }
+
+.container-footer ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  transition: 0.5s;
+
+
+}
+
 
 
 

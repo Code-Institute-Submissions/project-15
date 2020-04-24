@@ -1,39 +1,10 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    
-}
-
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 70px;
-    text-align: left;
-    /*overflow-x:hidden;*/
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    margin:0;
-    padding-right: 0px;
-    padding-left: 0px;
-    position:relative;
+    margin: 0;
+    padding: 0;
+  
 }
-
-/*
-.container-fluid {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}  
-
-.font {
-    font-size: 3;
-}
-*/
-
-
 
 .navbar {
     width: 100%;
@@ -41,10 +12,11 @@ body {
     background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%);
     border: 0px;
     padding-bottom: .5em;
-    display: inline-block;
+    margin-bottom: 0px;
+    /*height: 120px; */
     margin-top: 0px;
     margin-left: 0px;
-    margin-right:0px;
+    margin-right: 0px;
     padding: 15px;
     justify-content: space-around;
     align-items: center;
@@ -52,15 +24,6 @@ body {
 
     
 }
-.navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 1;
-  /*For always expanded or extra full navbars, ensure content aligns itself
-    properly vertically. Can be easily overridden with flex utilities. */
-     align-items: center;
-    
-}
-
 
 
 .navbar > a {
@@ -71,21 +34,22 @@ body {
     line-height: 105px; 
 }
 
-li {
-    list-style: none;
-    float:left;
-    
+.carousel-indicators li {
+  list-style: none;
+  float:left; 
+  padding: 1px;
+  background-color:blue;
+  
+  
 }
-
 .navbar-bg {
     border: 0;
     text-transform: uppercase;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 0.1em;
     font-size: larger;
-    background-color: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%);
+    background-color: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%); 
 }
-
 
 .fixed-top {
     position: fixed;
@@ -94,6 +58,7 @@ li {
     left: 0;
     z-index: 1030;
 }
+
 
 .navbar-brand {
     display: inline-block;
@@ -104,18 +69,20 @@ li {
     line-height: inherit;
     white-space: nowrap;
 
+
     width: 80px;
     height: 80px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -2px;
     text-align: center;
-    position: relative;  
+    position: relative;   
 }
 
 .ml-3 {
     margin-left: 1rem!important;
 }
+
 
 .navbar-expand-lg .navbar-nav > li > a {
     color: black;
@@ -123,10 +90,8 @@ li {
     text-decoration: none;
     padding: 0px 16px;
 
+
 }
-
-
-
 
 .navbar li {
     display: inline-block;
@@ -161,7 +126,6 @@ ul {
 
 }
 
-
 .navbar-toggler {
     position: absolute;
     top: 20px;
@@ -179,6 +143,7 @@ ul {
 
 
 /*
+
 @media screen and (min-width: 768px) {
     .navbar li a {
         display: flex;
@@ -192,17 +157,20 @@ ul {
         padding-top: 0px;
         
     }
+
     ul{
         flex-direction: column;
       }
-    
+
       li{
         margin: 0;
       }
-     /* makes sure that the a tag will take the entire screen 
+     /* makes sure that the a tag will take the entire screen */
+     /*
       a{
         display: block;
       }
+
 }
 */
 
@@ -213,11 +181,27 @@ ul {
     }
 
     .nav {
-        padding-right: 1.5rem;
-      }
+     padding-right: 1.5rem;
+     box-sizing: border-box;
+    
+    }
 
+    .nav ul{
+      margin: 0;
+      padding: 0;
+      float: right;
+    }
+    
     .nav li {
-        padding-right: 10px;
+     padding-right: 10px;
+    }
+    
+
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 0px;
+      transition: 0.5s;
       }
 
     .logo {
@@ -231,8 +215,8 @@ ul {
     .logo:hover,
     .nav-link:hover {
         color: rgba(255, 255, 255, 1);
-    } 
-
+    }
+    
 
 
  /* end of the navbar */   
@@ -248,12 +232,12 @@ ul {
 
 /* Content */
 
-
+/*
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
   } 
-  
+  */
 
 .text-uppercase {
     font-family:proxima-nova, sans-serif !important;
@@ -319,7 +303,7 @@ p {
 
 
 
-
+/*
 .photo-heading {
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -329,6 +313,7 @@ p {
     margin: auto;
     padding-bottom: 50px;
 }
+*/
 
 
 .fa {
@@ -365,7 +350,7 @@ p {
     display: inline-block;
     font-size: 30px;
     line-height: 38px;
-    /*width: 35px; */
+    width: 56px; 
     text-decoration: none;
     outline: none;
   }
@@ -384,5 +369,15 @@ p {
     padding: 15px;
     
 }
+
+.container-footer ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  transition: 0.5s;
+
+
+}
+
 
 
