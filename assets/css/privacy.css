@@ -3,6 +3,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%);
 
 }
 
@@ -245,6 +246,10 @@ ul {
   padding-right: 0px;
 } 
 */
+
+.container {
+  margin-bottom: 15px;
+}
 .text-uppercase {
     font-family:proxima-nova, sans-serif !important;
     font-style: normal;
@@ -255,6 +260,7 @@ ul {
     text-transform: uppercase;
     line-height: 1.5em;
     padding-top: 40px;
+    margin-top: 110px;
 }
 
 p {

@@ -3,6 +3,7 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%);
 
 }
 
@@ -230,6 +231,9 @@ ul {
     padding-right: 0px;
   } 
   */
+  p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 
 
 .container-wrapper {
@@ -237,7 +241,21 @@ ul {
     background-size: contain;
     background-attachment: fixed;
     /*background-repeat: repeat; */
+    margin-top: 111px;
     
+}
+.text-uppercase_1 {
+  font-family:proxima-nova, sans-serif !important;
+  font-style: normal;
+  font-size: 30px;
+  font-weight:400;
+  letter-spacing: 3px;
+  color: #231f20;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  padding-top: 40px;
+  margin-top: 290px;
+
 }
 
 
