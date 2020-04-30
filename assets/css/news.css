@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
     background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%);
+    overflow-x:hidden;
+    
   
 }
 
@@ -223,13 +225,14 @@ ul {
  /* end of the navbar */   
     
 
-
+/*
 .container-wrapper {
     background: url("../img/logo2-navbar.jpg") no-repeat center center;
     background-size: contain;
     background-attachment: fixed;
-    /*background-repeat: repeat; */
+    /*background-repeat: repeat; 
     }
+    */
 
 /* Content */
 
@@ -283,6 +286,7 @@ p {
     /*background: #7aecd9; */
 
 }
+
 
 a {
   color:green;
