@@ -251,10 +251,7 @@ ul {
   margin-left: 0px;
 }
 
-img:hover {
-  transform: scale(1.1);
-  transform: 1s;
-}
+
 
 .img {
      width: 500px;
@@ -265,15 +262,23 @@ img:hover {
   
 }
 
+
+
 img {
   object-fit: cover;
 }
 
 
 
+
 .thumbnail img {
   height:250px;
   width:100%;
+}
+
+.thumbnail img:hover {
+  transform: scale(1.1);
+  transform: 1s;
 }
 
 
