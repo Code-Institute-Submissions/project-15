@@ -149,21 +149,16 @@ ul {
 }
 
 
-/*
 
-@media screen and (min-width: 1015px) {
-    .navbar li a {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 0px;
-        
-        align-items: center;
-        margin-right: 0px;
-        flex-direction: row;
-        justify-content: flex-end;
-        padding-top: 0px;
+
+@media (min-width: 1240px) {
+    .col-md-4 {
+        clear: both;
         
     }
+  }
+
+    /*
 
     ul{
         flex-direction: column;
@@ -243,10 +238,15 @@ ul {
 
     
 
+    
+
     .container-fluid {
       width: 100%;
-      padding: 0 0 0;
+  
     }
+
+    
+    
 
     /*..................grid system.....................*/
 
@@ -264,213 +264,121 @@ ul {
     grid-column: span 3;
   }
 
-
-
-
-
-
-
-    /*----------------media query--------------*/
-
-   /* 
-
-    @media screen and (max-width: 1122px) {
-      body {
-        background-color: rgba(95, 95, 238, 0.39);
-        
-      }
-    }
-
-
-    */
-    
-    /*---------------end media query----------------*/
-
-    /*
-    .rounded-circle {         (rounded circle......................)
-      width:100%; 
-      height:100%; 
-    }
-
-    */
+   
 /*
     .col-md-4 img {
         display: inline-block;
         max-width: 100%;
     }
-
-
-
-@media (min-width: 1200px) {
-  .post-content{
-    font-size:60px;
-  }
-}
-
-*/
-
-
   .midbutton{
       padding-bottom: 10px;
   }
  
+   */
 
-.cover{
-    width:0px;  
-    height:0px; 
-/*Scale down will take the necessary specified space that is 150px x 100px without stretching the image */
-    object-fit: scale-down;
-}
-     
-.text-uppercase {
-    font-family:proxima-nova, sans-serif !important;
-    font-style: normal;
-    font-size: 30px;
-    font-weight:400;
-    letter-spacing: 3px;
-    color: #231f20;
-    text-transform: uppercase;
-    line-height: 1.5em;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+   /*..........................Images............................*/
 
-  .col-md-4 {
-      padding-bottom: 0px;
-  }
-
-  
-
-  .leafimage {
-      padding-bottom:0%;
-      padding-left: 0%;
-      padding-right: 0%;
-      width: 100%; 
-      height: 100%; 
-      position: relative; 
-      display: inline-block;
-      text-align: center;
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-position: 100% 100%;
-      background-color: peru;
-    }
-
-  img {
-      display: block;
-      
-      
-  }
-  
-
-  .leafimage-text{
-     
-      margin: 0%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate( -50%, -50% );
-      text-align: center;
-
-      font-weight: bold;
+   .img_responsive {
+     position: relative;
    }
+
    
-
-   .gallery{
-       padding-top: 0;
-       padding-bottom: 0px;
-   }
-   .text-uppercase {
-       padding-bottom: 0px;
-   }
-
-    /*
-    content: "";
-    clear: both;
-    display: table;
+  .rounded-circle {
+    position: absolute;
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+    float: left;
   }
 
-  */
+
+
+
+
+
+   .photo-heading {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: green;
+    margin: auto;
+    padding-bottom: 50px;
+   }
+  
   
 
-  .row {
-    display: flex;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
 
-  .flex {
-    display:flex;
-    }
-  .flex div {
-    flex:1;
-    margin:5px; /* need some space ?*/
-    }
+  
+
+  
   img {
     width:100%;
-    object-fit: cover;
-    display: block;
-  }
-
-   h2 p a {
+   /* object-fit: cover; */
+    display: block; 
     
-    width: 100%;
-
   }
+
+   
 
 
 /* Text in the image */
 
 
 
+
+.thumbnail{
+  position:relative;
+  
+  
+}
+
 .post-content {
   position: absolute;
-  /*bottom: 20px;
-  right: 20px;
-  background-color: transparent; */
   text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate( -50%, -50% );
+  top: 0%;
+ 
+  
+  
+
 }
+
+/*
+.post-content p h2 {
+  position: absolute;
+}
+*/
+
+/*
 
 h2 {
   position: relative;
   width: 100%;
+  min-width: 740px;
 }
 
 p {
   position: relative;
   width: 100%;
+  min-width: 740px;
 
-}
-
-/*
-
-.post-content h2 {
-  padding-top: 30px;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: rgb(180, 9, 9);
-  font-size: 50px;
-}
-
-
-
-.post-content .lead_1 {
-  font-family: initial;
-  font-size: 30px;
-  color: black;
 }
 
 */
 
 
-.thumbnail{
-  position:relative;
-  
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
 }
+
+.sepia {
+  filter: sepia(100%);
+}
+
+
+
 
 .lead {
   font-size: 1rem;
@@ -506,9 +414,6 @@ p {
 }
 
 
-
-
-
 .button a:hover{
   text-decoration: none;
 }
@@ -521,13 +426,6 @@ span {
 a:hover {
   text-decoration: none;
  }
-
-
-
-
-   
-
-
   
 /* Footer */
 
