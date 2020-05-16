@@ -219,24 +219,60 @@ ul {
 
    /*..........................Images............................*/
 
-   
+  .container-wrapper_gallery {
+    background: url("../img/gallery2.jpg") no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .col-12 {
+    /* position: relative; */
+     width: 400px;
+     height: 200px;
+     z-index: 1;
+   }
 
    
   .rounded-circle {
+  /*  position: absolute; */
     border-radius: 50%;
     height: 250px;
     width: 250px;
     float: left;
+    z-index: 2;
+    bottom: 40px;
   }
 
+
+
    .photo-heading {
+   /* position: absolute; */
     text-transform: uppercase;
     letter-spacing: 0.1em;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
     color: green;
-    margin: auto;
     padding-bottom: 50px;
+    width: 200px;
+    margin: 0 auto;
    }
   
   
@@ -263,14 +299,11 @@ ul {
 
 .thumbnail{
   position:relative;
+  top:0;
+  left:0;
   
   
 }
-
-
-
-
-
 
 
 .lead {
@@ -283,14 +316,24 @@ ul {
 
 
 .post-content {
-  position: absolute;
+  position: absolute; 
   text-align: center;
-  top: 0%;
- 
-  
-  
+  top: 10rem;
+  margin: 0 auto;
+ }
 
-}
+ 
+.post-content_1 {
+  position: absolute; 
+  text-align: center;
+  top: 25rem;
+  left:25rem;
+  margin: 0 auto;
+ }
+
+
+
+ 
 
 /*
 .post-content p h2 {
