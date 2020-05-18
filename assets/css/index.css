@@ -219,6 +219,8 @@ ul {
 
    /*..........................Images............................*/
 
+   /*
+
   .container-wrapper_gallery {
     background: url("../img/gallery2.jpg") no-repeat center center;
     background-size: cover;
@@ -228,21 +230,56 @@ ul {
   
   }
 
+  */
 
 
 
+  header {
+    width: 100%;
+    height: 100vh; 
+    background: url(../img/gallery2.jpg) center center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+  }
 
+  .about_us {
+    width: 100%;
+    height: 100vh; 
+    background: url(../img/us.jpg) center center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
 
+  .contact_us {
+    width: 100%;
+    height: 100vh; 
+    background: url(../img/pool.jpg) center center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
 
+  }
+/*
+  .contact_us{
+    filter:sepia(50%)
+  }
+  */
 
+  .justify-content-center {
 
+    margin-right: 80px;
+    
+    
+  }
 
-
-
-
-
-
-
+  
    .col-12 {
     /* position: relative; */
      width: 400px;
@@ -264,16 +301,36 @@ ul {
 
 
    .photo-heading {
-   /* position: absolute; */
+    /*position: relative; */
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-    color: green;
-    padding-bottom: 50px;
-    width: 200px;
     margin: 0 auto;
+    /*text-align: center; */
+   /* font-family: 'Fjalla One', sans-serif;*/
+    color: green;
+    /*padding-bottom: 50px;
+    width: 200px;
+    margin: 0 auto;*/
    }
+
+   
+   .gallery-heading {
+    /*position: relative; */
+    
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    color: green;
+    text-shadow: red 0px 0px 2px;
+    font-size: 50px;
+    
+   }
+
+   .display-4 {
+     color:orangered;
+   }
+
+
+
   
   
 
@@ -296,18 +353,22 @@ ul {
 
 
 
-
+/*
 .thumbnail{
   position:relative;
   top:0;
   left:0;
-  
-  
+   
 }
+
+*/
 
 
 .lead {
-  font-size: 1rem;
+  position: relative;
+  font-size: 1.5rem;
+  color:green;
+  top: 25rem;
   
 }
 
@@ -316,19 +377,23 @@ ul {
 
 
 .post-content {
-  position: absolute; 
+  position: relative; 
   text-align: center;
-  top: 10rem;
+  top: 7rem;
   margin: 0 auto;
+  text-shadow: red 0px 0px 2px;
+  font-size: 30px;
  }
+
+
 
  
 .post-content_1 {
-  position: absolute; 
+  position: relative;
   text-align: center;
-  top: 25rem;
-  left:25rem;
-  margin: 0 auto;
+  top: 7rem;
+  margin-left: 110px;
+ /* margin: 0 auto;*/
  }
 
 
@@ -369,13 +434,6 @@ p {
 
 
 
-
-.lead {
-  font-size: 1rem;
-}
-
-
-
 .img-fluid {
  
   top:0;
@@ -388,8 +446,17 @@ p {
 
 }
 
+.blue_button {
+  position: relative;
+  top: 350px;
+  right:30px;
+  left:200px;
+  bottom: 50px;
+}
+
 
 .button {
+  
   color: white;
   background-color:  #2376ae;
  /* border: none; */
