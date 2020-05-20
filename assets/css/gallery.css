@@ -227,10 +227,13 @@ ul {
       color: rgba(255, 255, 255, 1);
   }
 
+  /*
   .container-fluid {
     width: 100%;
     padding: 0 0 0;
   }
+
+  */
 
 
  /*end of the navbar */   
@@ -263,11 +266,11 @@ ul {
 }
 
 
-
+/*
 img {
   object-fit: cover;
 }
-
+*/
 
 
 
