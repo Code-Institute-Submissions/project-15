@@ -83,11 +83,11 @@ html,body {
      color:orangered;
    }
 
-.lead {
-  position: relative;
-  
-  color:green;
-  top: 0.5rem;
+   .lead {
+     position: relative;
+     color:green;
+     top: 0.5rem;
+     height: auto;
   
 }
 
@@ -110,6 +110,7 @@ html,body {
   text-shadow: red 0px 0px 3px;
   font-size: 4rem;
   color: orange;
+  height: 100vh;
  }
 
  
