@@ -23,8 +23,10 @@ html,body {
 }
 
 .text-center li {
-    color: blue;
+    color: white;
     font-size: 25px;
+    background-color: rgba(201, 76, 76, 0.5);
+
 }
 
 .form-group {
@@ -58,6 +60,7 @@ html,body {
 
 #map {
     margin-top: 20px;
+    border-radius: 5px;
 }
 
 .bg-success {
@@ -67,7 +70,7 @@ html,body {
 
 .button {
   color: white;
-  background-color:  #2376ae;
+  background-color:  #23ae41;
   border: none; 
   padding: 15px 32px;
   text-align: center;
@@ -79,6 +82,9 @@ html,body {
   /*border: 2px solid #e7e7e7;*/
 }
 
+.form-horizontal {
+  border-radius: 5px;
+}
 
 
 
