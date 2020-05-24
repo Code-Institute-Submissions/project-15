@@ -5,42 +5,33 @@
 
 
 
+
 .navbar {
     width: 100%;
     font-size: 3px;
     background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%);
     border: 0px;
-    padding-bottom: .5em;
+    
     margin-bottom: 0px;
     /*height: 120px; */
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 15px;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-
-    
+    /*min-height: 120px;*/
+        
 }
+
+
 
 
 .navbar > a {
-    display: inline-block;
+    
     vertical-align: top;
-    margin-right: 30px;
+    
     height: 50px;        /* if you want it to take the full height of the bar */
-    line-height: 105px; 
+    
 }
 
-.carousel-indicators li {
-  list-style: none;
-  float:left; 
-  padding: 1px;
-  background-color:blue;
-  
-  
-}
 .navbar-bg {
     border: 0;
     text-transform: uppercase;
@@ -50,32 +41,15 @@
     background-color: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%); 
 }
 
-.fixed-top {
-    position: sticky;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-
 .navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-
-
     width: 80px;
-    height: 80px;
+   /* height: 80px; */
     border-radius: 50%;
-    overflow: hidden;
+    /*overflow: hidden; */
     margin-top: -2px;
     text-align: center;
     position: relative;   
+    margin-bottom: 40px;
 }
 
 .ml-3 {
@@ -83,11 +57,12 @@
 }
 
 
+
 .navbar-expand-lg .navbar-nav > li > a {
-    color: black;
-    display: block;
+    
+    
     text-decoration: none;
-    padding: 0px 16px;
+    
 
 
 }
@@ -115,9 +90,6 @@ ul {
     font-size: 20px;
 }
 
-.flex-row-reverse{
-    flex-direction: row-reverse!important;
-}
  
   .navbar-nav>li {
     display: inline-block;
@@ -126,13 +98,13 @@ ul {
 }
 
 .navbar-toggler {
-    position: absolute;
-    top: 20px;
+   /* position: absolute;
+    top: 20px; */
     right: 0px;
     cursor: pointer;
-    color: rgba(175, 30, 30, 0.37);
-    font-size: 24px;
-    margin-right: 1rem;
+  
+  
+    
 
 }
 
@@ -152,19 +124,19 @@ ul {
     .nav-link {
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 15px;
+      
     }
 
     .nav {
       text-align: right;
       padding-right: 0.5rem;
       box-sizing: border-box;
+      
     
     }
 
     .nav ul{
-      margin: 0;
-      padding: 0;
+     
       float: right;
     }
     
@@ -192,6 +164,8 @@ ul {
     .nav-link:hover {
         color: rgba(255, 255, 255, 1);
     }
+
+    
     
 
     /* Footer*/
