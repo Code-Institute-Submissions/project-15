@@ -79,7 +79,7 @@ html,body {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  /*border: 2px solid #e7e7e7;*/
+  border-radius: 5px;
 }
 
 .form-horizontal {

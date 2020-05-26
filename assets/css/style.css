@@ -113,6 +113,23 @@ ul {
 }
 
 
+/*
+#navbarSupportedContent li a#home {
+  color:grey;
+}
+
+*/
+
+#home {
+  color:rgb(18, 87, 235);
+}
+
+#home:active {
+  
+  color: white;
+}
+
+
 
 
 /*
