@@ -5,8 +5,10 @@ html,body {
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 52px;
     padding: 0;
-    background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%);
+   /* background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%); */
+   background-color: rgba(227, 227, 236, 0.534);
     overflow-x:hidden;
+  
   
 }
 
@@ -54,8 +56,9 @@ html,body {
     color: #231f20;
     text-transform: uppercase;
     line-height: 1.5em;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-right: 27px;
+    padding-bottom: 30px;
 }
 
 #map {
@@ -63,20 +66,21 @@ html,body {
     border-radius: 5px;
 }
 
-.bg-success {
-  background-color: green!important;
+
+.form {
+  background-color: rgb(60, 86, 233)!important;
 }
 
 
 .button {
-  color: white;
-  background-color:  #23ae41;
+  color: blue;
+  background-color:  #cbdf16;
   border: none; 
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+ /* font-size: 16px; */
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 5px;
@@ -84,6 +88,7 @@ html,body {
 
 .form-horizontal {
   border-radius: 5px;
+  filter: sepia(30%);
 }
 
 
