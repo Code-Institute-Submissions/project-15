@@ -204,7 +204,14 @@ ul {
 
 .navbar button {
   outline: none !important;
+
 }
+
+  .nav a:visited {
+       text-decoration:none;
+       color: wheat;
+    }
+
     
 
     
@@ -305,5 +312,10 @@ ul {
 
   .black-text {
     padding-top: 10px;
+    color:  rgb(18, 87, 235);
+  }
+
+  .grey-text {
+    color:  rgb(18, 87, 235);
   }
   

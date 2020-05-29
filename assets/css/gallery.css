@@ -81,7 +81,7 @@ body::after {
 
 .container-fluid {
   /*margin-top: 30px; */
-  color: green;
+  color:  rgb(18, 87, 235);
   padding-top: 50px;
   padding-bottom: 30px;
 } 
@@ -114,6 +114,10 @@ body::after {
 .thumbnail img:hover {
   transform: scale(1.1);
   transform: 1s;
+}
+
+.text-grey {
+  color:  rgb(18, 87, 235);
 }
 
 

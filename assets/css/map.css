@@ -53,8 +53,8 @@ html,body {
     font-size: 30px;
     font-weight:400;
     letter-spacing: 3px;
-    color: #231f20;
-    text-transform: uppercase;
+    color:blue;
+    
     line-height: 1.5em;
     padding-top: 50px;
     padding-right: 27px;
@@ -64,11 +64,13 @@ html,body {
 #map {
     margin-top: 20px;
     border-radius: 5px;
+    
 }
 
 
 .form {
   background-color: rgb(60, 86, 233)!important;
+
 }
 
 
@@ -90,6 +92,19 @@ html,body {
   border-radius: 5px;
   filter: sepia(30%);
 }
+
+
+.text-wheat {
+  color: rgb(243, 183, 72);
+  text-shadow: blue 0px 0px 2px;
+}
+
+
+.text-logo {
+  color: rgb(243, 183, 72);
+  text-shadow: green 0px 0px 3px;
+}
+
 
 
 

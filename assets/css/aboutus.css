@@ -70,7 +70,7 @@ html,body {
   
   
   letter-spacing: 3px;
-  color: red;
+  color: rgb(18, 87, 235);
   text-transform: uppercase;
   
   padding-top: 50px;
@@ -80,9 +80,14 @@ html,body {
 
 }
 
+
+/*
 span {
-  background-color: rgba(201, 76, 76, 0.3);
+  background-color:  rgb(18, 87, 235, 0.5);
 }
+*/
+
+
 
 
 
@@ -149,4 +154,9 @@ span {
 
  img {
    float: left;
+ }
+
+ .text-wheat {
+   color: rgb(243, 183, 72);
+   text-shadow: blue 0px 0px 2px;
  }
