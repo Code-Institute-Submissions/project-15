@@ -8,12 +8,8 @@ html,body {
    /* background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%); */
     background-color: rgba(227, 227, 236, 0.534);
     overflow-x:hidden;
-    
   
 }
-
-    
-
 
 .text-uppercase {
     font-family:proxima-nova, sans-serif !important;
@@ -49,23 +45,16 @@ p {
     list-style: none;
     font-size: 20px;
     padding-top: 30px;
-   /* background: #c1eee6; */
-    /*background: transparent; */
-
-    
+       
 }
 
 .trans {
     opacity: 0.8;
-    /*background: #7aecd9; */
+    
 
 }
 
-/*
-a {
-  color:green;
-}
-*/
+
 
 a:hover {
   text-decoration: none;
@@ -73,7 +62,7 @@ a:hover {
 
  a:visited {
     color: rgb(243, 183, 72);
-   /* text-shadow: blue 0px 0px 2px; */
+   
     }
  
 

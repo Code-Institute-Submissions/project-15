@@ -15,11 +15,9 @@ html,body {
   background: url("../img/logo2-navbar.jpg") no-repeat center center;
   background-size: contain;
   background-attachment: fixed;
-  /*background-repeat: repeat; */
+
   
 }
-
-
 
 .container {
   margin-bottom: 15px;

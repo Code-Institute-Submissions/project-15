@@ -1,9 +1,5 @@
 
-
 /* navigation bar */
-
-
-
 
 
 .navbar {
@@ -26,13 +22,9 @@
 
 }
 
-
-
-
 .navbar > a {
     
     vertical-align: top;
-    
     height: 50px;        /* if you want it to take the full height of the bar */
     
 }
@@ -61,15 +53,9 @@
     margin-left: 1rem!important;
 }
 
-
-
 .navbar-expand-lg .navbar-nav > li > a {
-    
-    
     text-decoration: none;
     
-
-
 }
 
 .navbar li {
@@ -103,14 +89,9 @@ ul {
 }
 
 .navbar-toggler {
-   /* position: absolute;
-    top: 20px; */
+  
     right: 0px;
     cursor: pointer;
-  
-  
-    
-
 }
 
 .active {
@@ -118,34 +99,14 @@ ul {
 }
 
 
-/*
-#navbarSupportedContent li a#home {
-  color:grey;
-}
-
-*/
 
 #home {
   color:rgb(18, 87, 235);
 }
 
 #home:active {
-  
   color: white;
 }
-
-/*
-.custom-toggler {
-  border-color: orchid;
-}
-*/
-
-
-/*
-
-.left { float: left; }
-
-*/
 
     .nav-link {
         margin-left: 0px;
@@ -191,9 +152,6 @@ ul {
         color: rgba(255, 255, 255, 1);
     }
 
-
-
-
     .custom-toggler.navbar-toggler {
       border-color: rgba(219, 199, 189, 1);
   } 
@@ -213,10 +171,6 @@ ul {
     }
 
     
-
-    
-    
-
     /* Footer*/
    
 .container-footer {
@@ -235,31 +189,13 @@ ul {
   }
   
   
-  
-  
-  /*
-  .list-inline{
-      /*background-color:black;
-      }
-  */
-  
-  
   .justify-content-center li a {
-      /*background-color: rgb(35, 116, 223); */
+    
       border-radius: 50%; 
       display: block;
       background:rgb(60, 86, 233);
   }
-  
-  /*
-  .justify-content-center {
-      -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-      justify-content: center !important; 
-    }
-  
-    */
-  
+   
   
   .fa {
       display: inline-block;

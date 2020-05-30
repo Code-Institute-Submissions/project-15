@@ -11,15 +11,12 @@ html,body {
   
 }
 
-
-
 #img_gal {
  /* background-image: url(../img/gallery2.jpg); */
   width: 100%;
   min-height: 100vh; 
   position: relative;
-  
-  
+    
 }
 
 #img_gal::before {
@@ -30,28 +27,15 @@ html,body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: .7; 
+  opacity: .5; 
   background-image: url(../img/gallery2.jpg); 
 }
-
-
-
-
-
-
 
 #img_us {
   /*background-image: url(../img/us.jpg); */ 
   width: 100%;
   min-height: 100vh; 
   position: relative;
-  
-  /*
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
-
 }
 
 #img_us::before {
@@ -62,33 +46,15 @@ html,body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: .7; 
+  opacity: .5; 
   background-image: url(../img/us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
-
-
-/*
-
-#img_contact {
-  background-image: url(../img/pool.jpg); 
-  width: 100%;
-  min-height: 100vh; 
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-
-
-}
-
-*/
-  
   .rounded-circle {
-  /*  position: absolute; */
+
     border-radius: 50%;
     height: 250px;
     width: 250px;
@@ -99,26 +65,19 @@ html,body {
   }
 
    .photo-heading {
-    /*position: relative; */
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 0 auto;
-    /*text-align: center; */
-   /* font-family: 'Fjalla One', sans-serif;*/
     color: green;
-    /*padding-bottom: 50px;
-    width: 200px;
-    margin: 0 auto;*/
+   
    }
 
    
    .gallery-heading {
-    /*position: relative; */
-    
     letter-spacing: 0.2em;
     margin: 0 auto;
-    color: green;
-    text-shadow: red 0px 0px 2px;
+    color: blue;
+    text-shadow: red 0px 0px 3px;
     font-size: 50px;
     
    }
@@ -127,18 +86,6 @@ html,body {
      color:orangered;
    }
 
-   /*
-
-   .lead {
-     position: relative;
-     color:green;
-     top: 0.5rem;
-     height: auto;
-     padding-top: 40px;
-  
-}
-*/
-
 
 .post-content {
   position: relative; 
@@ -146,8 +93,10 @@ html,body {
   top: 0rem;
   margin: 0 auto;
   text-shadow: red 0px 0px 3px;
-  font-size: 4rem;
+  font-size: 3rem;
   color: orange;
+  padding-right: 25px;
+  padding-left: 25px;
  }
 
  .post-content_gal {
@@ -173,11 +122,6 @@ html,body {
   min-height: 100vh;
  }
 
-
-
-
-
- 
 .post-content_1 {
 
   text-align: center;
@@ -200,13 +144,7 @@ html,body {
 
  }
 
- /*
-
-.sepia {
-  filter: sepia(100%);
-}
-
-*/
+ 
 
 .img-fluid {
  
@@ -216,6 +154,7 @@ html,body {
   height:100%;
   background-repeat:no-repeat;
   background-size:100% auto;
+  opacity:0.5;
 
 
 }
@@ -229,22 +168,13 @@ html,body {
   text-align: center;
 }
 
-
 .button {
-  
-  
   background-color:  #2376ae;
  /* border: none; */
   padding: 15px 32px;
-  
   text-decoration: none;
-  
-  
-  margin: 4px 2px;
-
-  /*border: 2px solid #e7e7e7;*/
+  margin: 4px 2px;  
 }
-
 
 .button a:hover{
   text-decoration: none;
@@ -271,11 +201,13 @@ a:hover {
  }
   
 
-img {
-  opacity:0.7;
+
+.text-primary {
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
-.text-light {
-  padding-right: 25px;
+.image-resize {
+  opacity: 0.5;
 }
 
