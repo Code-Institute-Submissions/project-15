@@ -1,14 +1,12 @@
 
 html,body {
     width: 100%;
-    
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 52px;
     padding: 0;
    /* background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%); */
    background-color: rgba(227, 227, 236, 0.534);
-    overflow-x:hidden;
-    
+    overflow-x:hidden;    
 }
 
 .container {
@@ -27,14 +25,12 @@ html,body {
     color: white;
     font-size: 25px;
     background-color: rgba(201, 76, 76, 0.5);
-
 }
 
 .form-group {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
 
 .img-thumbnail {
     padding: 0.25rem;
@@ -45,7 +41,6 @@ html,body {
     height: auto;
   }
 
-
 .text-uppercase {
     font-family:proxima-nova, sans-serif !important;
     font-style: normal;
@@ -53,7 +48,6 @@ html,body {
     font-weight:400;
     letter-spacing: 3px;
     color:blue;
-    
     line-height: 1.5em;
     padding-top: 50px;
     padding-right: 27px;
@@ -62,16 +56,12 @@ html,body {
 
 #map {
     margin-top: 20px;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 }
-
 
 .form {
   background-color: rgb(60, 86, 233)!important;
-
 }
-
 
 .button {
   color: blue;
@@ -92,12 +82,10 @@ html,body {
   filter: sepia(30%);
 }
 
-
 .text-wheat {
   color: rgb(243, 183, 72);
   text-shadow: blue 0px 0px 2px;
 }
-
 
 .text-logo {
   color: rgb(243, 183, 72);

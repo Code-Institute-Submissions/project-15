@@ -1,8 +1,6 @@
 
-
 html, body {
     width: 100%;
-    
    /* background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%); */
     margin-top: 26px;
     padding: 0;
@@ -10,7 +8,6 @@ html, body {
 }
 
 #white_img {
-  
    width: 100%;
    min-height: 100vh; 
    position: relative;      
@@ -30,28 +27,21 @@ html, body {
    background-size: cover;
  }
 
-
  .bg-img {
-
   display: inline-block;
   width: 100%;
   font-size: 0;
-  
   vertical-align: middle;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-
-
  }
 
 .container-fluid {
-  
   color:  rgb(18, 87, 235);
   padding-top: 50px;
   padding-bottom: 30px;
 } 
-
 
 .col-md-4 {
   margin-top: 0px;                     /*.....put some margins......*/
@@ -63,8 +53,7 @@ html, body {
      height: 500px;
      background-position: 50% 50%;
      background-repeat: no-repeat;
-     background-size: cover;
-  
+     background-size: cover; 
 }
 
 .thumbnail img {

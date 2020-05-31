@@ -6,27 +6,18 @@ html,body {
   /*background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%); */
   background-color: rgba(227, 227, 236, 0.534);
   overflow-x:hidden;
-
 }
-
-
   p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-
-
 .text-uppercase_1 {
   font-family:proxima-nova, sans-serif !important;
   font-style: normal;
-  
-  
   letter-spacing: 3px;
   color: rgb(18, 87, 235);
   text-transform: uppercase;
-  
   padding-top: 50px;
-  padding-bottom: 30px;
-  
+  padding-bottom: 30px; 
 }
 
 .text-uppercase {
@@ -45,7 +36,6 @@ html,body {
   padding-top: 15px;
 }
 
-
 .about-content-container {
   padding-bottom: 15px;
 }
@@ -63,21 +53,18 @@ html,body {
   line-height: 1.3;
 }
 
-
 .rounded-circle {
     height: 200px;
     width: 200px;
     float: left;
     z-index: 2;
     bottom: 40px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px;  
   } 
  
 .post-content_1 {
-
   text-align: center;
- display: flex;
+  display: flex;
   justify-content: center;
  }
 

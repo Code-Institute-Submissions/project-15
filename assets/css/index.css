@@ -1,22 +1,18 @@
 
-
 html,body {
     width: 100%;
-    
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 52px;
     padding: 0;
     overflow-x:hidden;
-    /*max-width: 1400px; */
-  
+    /*max-width: 1400px; */  
 }
 
 #img_gal {
  /* background-image: url(../img/gallery2.jpg); */
   width: 100%;
   min-height: 100vh; 
-  position: relative;
-    
+  position: relative;    
 }
 
 #img_gal::before {
@@ -50,18 +46,15 @@ html,body {
   background-image: url(../img/us.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
   .rounded-circle {
-
     border-radius: 50%;
     height: 250px;
     width: 250px;
     float: left;
     z-index: 2;
-    bottom: 40px;
-    
+    bottom: 40px; 
   }
 
    .photo-heading {
@@ -69,23 +62,19 @@ html,body {
     letter-spacing: 0.1em;
     margin: 0 auto;
     color: green;
-   
    }
-
-   
+ 
    .gallery-heading {
     letter-spacing: 0.2em;
     margin: 0 auto;
     color: blue;
     text-shadow: red 0px 0px 3px;
-    font-size: 50px;
-    
+    font-size: 50px; 
    }
 
    .display-4 {
      color:orangered;
    }
-
 
 .post-content {
   position: relative; 
@@ -110,7 +99,6 @@ html,body {
   min-height: 100vh;
  }
 
- 
  .post-content_us {
   position: relative; 
   text-align: center;
@@ -123,7 +111,6 @@ html,body {
  }
 
 .post-content_1 {
-
   text-align: center;
   padding-left: 45px;
   padding-right: 45px;
@@ -131,23 +118,17 @@ html,body {
   justify-content: center;
  }
  
-
 .bg-img {
   display: inline-block;
   width: 100%;
   font-size: 0;
-  
   vertical-align: middle;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-
  }
 
- 
-
 .img-fluid {
- 
   top:0;
   left:0;
   width:100%;
@@ -155,15 +136,12 @@ html,body {
   background-repeat:no-repeat;
   background-size:100% auto;
   opacity:0.5;
-
-
 }
 
 .blue_button {
   position: relative;
   top: 0px;
   right:30px;
-
   bottom: 50px;
   text-align: center;
 }
@@ -189,7 +167,6 @@ a:hover {
   text-decoration: none;
  }
 
-
  .row {
    padding-bottom: 60px;
    padding-top: 100px;
@@ -200,8 +177,6 @@ a:hover {
    padding-bottom: 20px;
  }
   
-
-
 .text-primary {
   padding-right: 25px;
   padding-left: 25px;

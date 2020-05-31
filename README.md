@@ -63,8 +63,9 @@ Testing information can be found in testing.md file
 
 <li>Manual testing was undertaken for this application and satisfactorily passed. A sample of the tests conducted are as follows:</li>
 
-<ul>Testing the code to call the google API and the ability to scroll, zoom and click on map marker for location details. </ul>
-<ul>Testing buttons and hyperlinks throughout the site. </ul>
+<ul>1. Testing the code to call the google API and the ability to scroll, zoom and click on map marker for location details. </ul>
+<ul>2. Testing buttons and hyperlinks throughout the site. </ul>
+<ul>3. Responsive Testing The app was tested on Samsung S8, Apple iPhone 6, Apple iPad Air 2 and also using the Google Chrome inspect  feature to tes for repsonsiveness and any errors that occurred. The main issue which was found was the navbar and rounded images not resizing. </ul>
 
 **DEPLOYMENT** <br />
 
@@ -76,12 +77,22 @@ To deploy dashboard to GitHub Pages from its GitHub repository (https://mirofran
 
 Miroslav Frankovic - This project was completed as part of Code Institute's Web Development project for Stream 1 in 2020.
 
+**EXTRA RESOURCES** <br />
+
+<ul> Stackoverflow.com </ul>
+<ul> GitHub </ul>
+
+**IMAGES** <br />
+
+<ul> All images for my Project-1 I have downloaded from Google.com </ul>
+<ul> The logo VaniliaLemon I have created using canva.com </ul>
+
 **ACKNOWLEDGMENT** <br />
 
 <li>Template by Bootstrap</li>
 <li>Inspiration for this project came from my friend Emilia Li</li>
 <li>etc</li>
 
-**text**
+**In conclusion** <br />
 
-Thank you Guido...text
+<ul> I would like to thank my mentor Guido Cecilio Garcia Bernal and the Code Institute for their support. </ul>

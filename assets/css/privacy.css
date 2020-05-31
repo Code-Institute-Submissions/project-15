@@ -1,27 +1,24 @@
 
 html,body {
   width: 100%;
-  
   font-family: 'Josefin Sans', sans-serif;
   margin-top: 52px;
   padding: 0;
  /* background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%); */
   background-color: rgba(227, 227, 236, 0.534);
   overflow-x:hidden;
-
 }
 
 .container-wrapper {
   background: url("../img/logo2-navbar.jpg") no-repeat center center;
   background-size: contain;
-  background-attachment: fixed;
-
-  
+  background-attachment: fixed;  
 }
 
 .container {
   margin-bottom: 15px;
 }
+
 .text-uppercase {
     font-family:proxima-nova, sans-serif !important;
     font-style: normal;
@@ -38,7 +35,6 @@ html,body {
 p {
   text-indent: 30px;
   padding-top: 20px;
-
 }
 
 
