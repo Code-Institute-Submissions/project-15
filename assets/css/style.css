@@ -82,9 +82,30 @@ ul {
   cursor: pointer;
 }
 
-.active {
+/*
+
+li.active a { color: #0DB159; }
+
+*/
+
+/*
+
+.active a{
   display: block;
+  color: red !important;
 }
+*/
+
+/*
+.navbar-nav > .active  a {
+  color: aqua;
+  background-color: chartreuse;    
+}
+.nav-item > a:hover {
+  color: aqua;
+}
+
+/*
 
 #home {
   color:rgb(18, 87, 235);
@@ -93,6 +114,8 @@ ul {
 #home:active {
   color: white;
 }
+
+*/
 
 .nav-link {
   margin-left: 0px;
@@ -145,9 +168,28 @@ nav ul li{
   outline: none !important;
 }
 
+/*
 .nav a:visited {
   text-decoration:none;
   color: wheat;
+}
+*/
+
+.nav a {
+  color:wheat;
+ /* background-color: grey;
+  border-radius: 4px;
+  display: inline-block;*/
+}
+
+.nav a:hover {
+ /* background-color: indianred; */
+ color: indianred;
+}
+
+.nav .active {
+  /*background-color: lawngreen; */
+  color: lawngreen;
 }
 
     
