@@ -176,7 +176,7 @@ nav ul li{
 */
 
 .nav a {
-  color:wheat;
+  color: indianred;
  /* background-color: grey;
   border-radius: 4px;
   display: inline-block;*/
@@ -189,7 +189,11 @@ nav ul li{
 
 .nav .active {
   /*background-color: lawngreen; */
-  color: lawngreen;
+  color: rgb(2, 31, 9);
+}
+.nav .active:hover {
+  color: rgb(2, 31, 9);
+
 }
 
     
@@ -261,10 +265,10 @@ li {
 
 .black-text {
   padding-top: 10px;
-  color:  rgb(18, 87, 235);
+  color: indianred;
 }
 
 .grey-text {
-  color:  rgb(18, 87, 235);
+  color: indianred;
 }
   

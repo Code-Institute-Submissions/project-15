@@ -81,11 +81,11 @@ html,body {
   text-align: center;
   top: 0rem;
   margin: 0 auto;
-  text-shadow: red 0px 0px 3px;
   font-size: 3rem;
-  color: orange;
   padding-right: 25px;
   padding-left: 25px;
+  color: rgb(231, 10, 59);
+  text-shadow: #e9e519ed 0px 0px 2px;
  }
 
  .post-content_gal {
@@ -93,10 +93,10 @@ html,body {
   text-align: center;
  /* top: 7rem; */
   margin: 0 auto;
-  text-shadow: red 0px 0px 3px;
   font-size: 2rem;
-  color: orange;
   min-height: 100vh;
+  color: rgb(231, 10, 59);
+  text-shadow: #e9e519ed 0px 0px 2px;
  }
 
  .post-content_us {
@@ -158,10 +158,14 @@ html,body {
   text-decoration: none;
 }
 
+/*
+
 span {
   text-decoration: none;
   color: white;
 }
+
+*/
 
 a:hover {
   text-decoration: none;
@@ -182,7 +186,24 @@ a:hover {
   padding-left: 25px;
 }
 
+.text_left_right {
+  padding-right: 25px;
+  padding-left: 25px;
+  color: rgb(39, 3, 3);
+  text-shadow: rgb(214, 103, 109) 0px 0px 3px;
+
+}
+
 .image-resize {
   opacity: 0.5;
+}
+
+.color {
+  color:black;
+}
+
+.color:hover {
+    text-decoration: none;
+    color: black;
 }
 

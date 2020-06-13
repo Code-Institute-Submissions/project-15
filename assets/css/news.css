@@ -52,12 +52,17 @@ a:hover {
 }
 
  a:visited {
-    color: rgb(243, 183, 72);
+    color: rgb(231, 10, 59);
+    text-shadow: #e9e519ed 0px 0px 2px;
 }
+
+/*
  
 .blue-text-shadow {
     text-shadow: blue 0px 0px 2px;
 }
+
+*/
 
 .row {
     padding-bottom: 20px;
