@@ -47,6 +47,14 @@ Front End languages that give the application structure, style and interactivity
 
 <li><a href="https://fontawesome.com/">Font Awesome</a></li>
 
+
+<li><a href="https://sweetalert2.github.io/">Sweetalert</a></li>
+
+
+<li><a href="https://imagecompressor.com/">Optimizilla</a></li>
+
+
+
 To ensure responsivness of the site all changes were tested using Inspect Module in Google Chrome Browser. Having commited all changes to Git, the site was deployed to <a href="https://github.com/">GitHub</a>.
 
 Git used for the Version control and GitHub used as hosting service for Git Repositories of this site.
@@ -63,7 +71,7 @@ Testing information can be found in testing.md file
 
 <li>Manual testing was undertaken for this application and satisfactorily passed. A sample of the tests conducted are as follows:</li>
 
-<ul>1. Testing the code to call the google API and the ability to scroll, zoom and click on map marker for location details. </ul>
+<ul>1. Testing the code to call the google API and the ability to scroll, zoom and click on map marker for location details. <ul>
 <ul>2. Testing buttons and hyperlinks throughout the site. </ul>
 <ul>3. Responsive Testing The app was tested on Samsung S8, Apple iPhone 6, Apple iPad Air 2 and also using the Google Chrome inspect  feature to tes for repsonsiveness and any errors that occurred. The main issue which was found was the navbar and rounded images not resizing. </ul>
 
