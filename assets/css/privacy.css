@@ -10,7 +10,7 @@ html,body {
 }
 
 .container-wrapper {
-  background: url("../img/logo2-navbar.jpg") no-repeat center center;
+  background: url("../img/logo2-navbar-min.jpg") no-repeat center center;
   background-size: contain;
   background-attachment: fixed;  
 }
