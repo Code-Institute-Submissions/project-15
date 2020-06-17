@@ -14,7 +14,7 @@
 }
 
 .navbar-style {
-  background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%);
+  background-image: linear-gradient(260deg, #ffffff 0%, #f3f1f3  100%);
 }
 
 .navbar > a {
@@ -28,7 +28,7 @@
   font-family: 'Fjalla One', sans-serif;
   letter-spacing: 0.1em;
   font-size: larger;
-  background-color: linear-gradient(260deg, #2376ae 0%, #f3f1f3  100%); 
+  background-color: linear-gradient(260deg, #ffffff 0%, #f3f1f3  100%); 
 }
 
 .navbar-brand {
@@ -176,7 +176,7 @@ nav ul li{
 */
 
 .nav a {
-  color: indianred;
+  color: rgb(12, 11, 11);
  /* background-color: grey;
   border-radius: 4px;
   display: inline-block;*/
@@ -184,15 +184,15 @@ nav ul li{
 
 .nav a:hover {
  /* background-color: indianred; */
- color: indianred;
+ color: rgb(12, 11, 11);
 }
 
 .nav .active {
   /*background-color: lawngreen; */
-  color: rgb(2, 31, 9);
+  color: rgb(245, 9, 9);
 }
 .nav .active:hover {
-  color: rgb(2, 31, 9);
+  color: rgb(245, 9, 9);
 
 }
 
@@ -206,7 +206,7 @@ nav ul li{
   font-family: Verdana ;
   width: 100%;
   min-height: 100%;
-  background-image: linear-gradient(260deg, #2376ae 0%, #f3f1f3 100%);
+  background-image: linear-gradient(260deg, #ffffff 0%, #f3f1f3 100%);
   bottom: 0px;
   padding: 0px;
   position: relative;
@@ -216,7 +216,7 @@ nav ul li{
 .justify-content-center li a {
   border-radius: 50%; 
   display: block;
-  background:rgb(60, 86, 233);
+  background:rgb(38, 15, 22);
 }
    
 .fa {
@@ -265,10 +265,10 @@ li {
 
 .black-text {
   padding-top: 10px;
-  color: indianred;
+  color: rgb(12, 11, 11);
 }
 
 .grey-text {
-  color: indianred;
+  color: rgb(12, 11, 11);
 }
   

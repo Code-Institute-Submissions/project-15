@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>VaniliaLemon Project</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>VaniliaLemon - Map</title>
+    <meta name="description" content="Milestone Project">
+    <meta name="author" content="Miro Frankovic">
 
     <!-- Bootstrap core CSS -->
 
@@ -82,7 +82,7 @@
      </div>
   <div class="form-container">
     <p id="thankyou" class="text-primary text-center"></p>
-      <form id="contact_form" class="form-horizontal form text-white sepia" method="post" name="contact_form" action="#" input type="text">
+      <form id="contact_form" class="form-horizontal form text-black" method="post" name="contact_form" action="#" input type="text">
           <div class="container">
           <div class="row"> 
               <div class="col"></div>
@@ -150,7 +150,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" ></script>
     <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
 
     <script>
 
@@ -162,19 +162,6 @@
                 var marker = new google.maps.Marker({position:myCenter});
                 marker.setMap(map); 
              }
-
-             
-              
-             /*
-             function onClickSubmitButton() {
-
-               var for_mat = document.getElementById('thankyou');
-               var name = document.getElementById('name');
-
-               for_mat.innerHTML = "Thank you for your email " + name.value;
-             }
-
-             */
 
              /*
               
@@ -188,135 +175,13 @@
 
                   }
                
-               */
+            */
+         
 
               $( "#contact_form" ).submit(function( event ) {
-                alert( "Thank you for your email" );
+                alert( "Thank you for your email" ); 
                 event.preventDefault();
               });
-            
-            
-
-
-              $("#register").click(function(){
-                var name = $("#name").val();
-                var email = $("#email").val();
-                var message = $("#message").val();
-
-
-                if(name == '' || email == '' || message == ''){
-
-                  swal({
-                          title: "Missing Link!!",
-                          text: "Please DoubleCheck Missing Link!",
-                          icon: "warning",
-                          button: "OK",
-                        });
-
-                
-                } else {
-
-                  swal({
-                            title: "Well Done!",
-                            text: "You Just Submitted Your Message!",
-                            icon: "success",
-                            button: "Yeeep",
-                          });
-
-                }
-
-              });
-
-
-
-             /*
-
-              function validate() {
-
-
-
-                
-                if( document.contact_form.name.value == "" ) {
-                  alert( "Please provide your name!" );
-                  document.contact_form.name.focus() ;
-                  return false;
-                }
-                if( document.contact_form.email.value == "" ) {
-                  alert( "Please provide your Email!" );
-                  document.contact_form.email.focus() ;
-                  return false;
-                }
-                if( document.contact_form.message.value == "" ) {
-                  alert( "Please provide your message here" );
-                  document.contact_form.message.focus() ;
-                  return false;
-                }
-                return( true );
-                }
-
-
-
-                function validateEmail() {
-                  var emailID = document.contact_form.email.value;
-                  atpos = emailID.indexOf("@");
-                  dotpos = emailID.lastIndexOf(".");
-                  
-                  if (atpos < 1 || ( dotpos - atpos < 2 )) {
-                      alert("Please enter correct email ID")
-                      document.contact_form.email.focus() ;
-                      return false;
-                  }
-                  return( true );
-                }
-
-             
-
-              */
-              
-
-              /*
-
-             // Submit form with id function.
-
-              function onClickSubmitButton() {
-
-              var name = document.getElementById("name").value;
-              var email = document.getElementById("email").value;
-
-              if (validation()) // Calling validation function
-                    {
-              document.getElementById("contact_form").submit(); //form submission
-              alert(" Name : " + name + " n Email : " + email + " n Form Id : " + document.getElementById("contact_form").getAttribute("id") + "nn Form Submitted Successfully......");
-              }
-
-           
-
-              // Name and Email validation Function.
-              function validation() {
-              var name = document.getElementById("name").value;
-              var email = document.getElementById("email").value;
-              var emailReg = /^([w-.]+@([w-]+.)+[w-]{2,4})?$/;
-              if (name === '' || email === '') {
-              alert("Please fill all fields...!!!!!!");
-              return false;
-              } else if (!(email).match(emailReg)) {
-              alert("Invalid Email...!!!!!!");
-              return false;
-              } else {
-              return true;
-              }
-              }
-
-
-              */
-
-
-
-
-
-
-
-
              
     </script>
         
