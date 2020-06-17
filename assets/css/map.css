@@ -60,11 +60,8 @@ html,body {
 }
 
 .form {
-  background-color: rgba(221, 92, 113, 0.973)!important;
+  background-color: rgb(170, 218, 255)!important;
 }
-
-
-
 .button {
   color: blue;
   background-color:  #cbdf16;
