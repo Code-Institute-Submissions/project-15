@@ -7,14 +7,12 @@ html,body {
     overflow-x:hidden;
     /*max-width: 1400px; */  
 }
-
 #img_gal {
  /* background-image: url(../img/gallery2.jpg); */
   width: 100%;
   min-height: 100vh; 
   position: relative;    
 }
-
 #img_gal::before {
   content: "";
   position: absolute;
@@ -26,14 +24,12 @@ html,body {
   opacity: .5; 
   background-image: url(../img/gallery2-min-min.jpg); 
 }
-
 #img_us {
   /*background-image: url(../img/us.jpg); */ 
   width: 100%;
   min-height: 100vh; 
   position: relative;
 }
-
 #img_us::before {
   content: "";
   position: absolute;
@@ -47,35 +43,31 @@ html,body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
   .rounded-circle {
     border-radius: 50%;
-    height: 250px;
-    width: 250px;
+    height: 240px;
+    width: 240px;
     float: left;
     z-index: 2;
     bottom: 40px; 
   }
-
    .photo-heading {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 0 auto;
     color: green;
    }
- 
    .gallery-heading {
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     margin: 0 auto;
     color: blue;
     text-shadow: red 0px 0px 3px;
     font-size: 50px; 
+    padding-left: 5px;
    }
-
    .display-4 {
      color:orangered;
    }
-
 .post-content {
   position: relative; 
   text-align: center;
@@ -87,7 +79,6 @@ html,body {
   color: rgb(231, 10, 59);
   text-shadow: #e9e519ed 0px 0px 2px;
  }
-
  .post-content_gal {
   position: relative; 
   text-align: center;
@@ -98,7 +89,6 @@ html,body {
   color: rgb(231, 10, 59);
   text-shadow: #e9e519ed 0px 0px 2px;
  }
-
  .post-content_us {
   position: relative; 
   text-align: center;
@@ -109,7 +99,6 @@ html,body {
   color: orange;
   min-height: 100vh;
  }
-
 .post-content_1 {
   text-align: center;
   padding-left: 45px;
@@ -117,7 +106,6 @@ html,body {
   display: flex;
   justify-content: center;
  }
- 
 .bg-img {
   display: inline-block;
   width: 100%;
@@ -127,7 +115,6 @@ html,body {
   background-position: 50% 50%;
   background-repeat: no-repeat;
  }
-
 .img-fluid {
   top:0;
   left:0;
@@ -137,7 +124,6 @@ html,body {
   background-size:100% auto;
   opacity:0.5;
 }
-
 .blue_button {
   position: relative;
   top: 0px;
@@ -145,7 +131,6 @@ html,body {
   bottom: 50px;
   text-align: center;
 }
-
 .button {
   background-color:  #2376ae;
  /* border: none; */
@@ -153,57 +138,43 @@ html,body {
   text-decoration: none;
   margin: 4px 2px;  
 }
-
 .button a:hover{
   text-decoration: none;
 }
-
-/*
-
-span {
-  text-decoration: none;
-  color: white;
-}
-
-*/
-
 a:hover {
   text-decoration: none;
  }
-
  .row {
    padding-bottom: 60px;
    padding-top: 100px;
    /*width: 800px;*/
  }
-
  .card-action {
    padding-bottom: 20px;
- }
-  
+ } 
 .text-primary {
   padding-right: 25px;
   padding-left: 25px;
 }
-
 .text_left_right {
   padding-right: 25px;
   padding-left: 25px;
   color: rgb(39, 3, 3);
   text-shadow: rgb(214, 103, 109) 0px 0px 3px;
-
 }
-
 .image-resize {
   opacity: 0.5;
 }
-
 .color {
   color:black;
 }
-
 .color:hover {
     text-decoration: none;
     color: black;
 }
-
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .rounded-circle {
+    width: 200px;
+    height: 200px;
+ }
+}
