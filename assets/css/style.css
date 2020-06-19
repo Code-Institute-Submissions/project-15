@@ -1,6 +1,5 @@
 
 /* navigation bar */
-
 .navbar {
   width: 100%;
   font-size: 3px;
@@ -82,41 +81,6 @@ ul {
   cursor: pointer;
 }
 
-/*
-
-li.active a { color: #0DB159; }
-
-*/
-
-/*
-
-.active a{
-  display: block;
-  color: red !important;
-}
-*/
-
-/*
-.navbar-nav > .active  a {
-  color: aqua;
-  background-color: chartreuse;    
-}
-.nav-item > a:hover {
-  color: aqua;
-}
-
-/*
-
-#home {
-  color:rgb(18, 87, 235);
-}
-
-#home:active {
-  color: white;
-}
-
-*/
-
 .nav-link {
   margin-left: 0px;
   margin-right: 0px;
@@ -168,18 +132,8 @@ nav ul li{
   outline: none !important;
 }
 
-/*
-.nav a:visited {
-  text-decoration:none;
-  color: wheat;
-}
-*/
-
 .nav a {
   color: rgb(12, 11, 11);
- /* background-color: grey;
-  border-radius: 4px;
-  display: inline-block;*/
 }
 
 .nav a:hover {
@@ -195,10 +149,7 @@ nav ul li{
   color: rgb(245, 9, 9);
 
 }
-
-    
-    /* Footer*/
-   
+ /* Footer*/   
 .container-footer {
   margin-top: 0px ;
   text-align: center ;
