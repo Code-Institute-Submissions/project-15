@@ -1,31 +1,72 @@
-**VaniliaLemon | A Student House**
+# VaniliaLemon | A Student House
 
 <br />
 
-**Milestone Project 1**
+## UX
 
-This is a 'digital framework' I have developed for my project. It is a front-end website that provides a basic information for students seeking a private accomodation in Manchester with:
+The purpose of this project is to create a static 'digital framework' **(front-end only)** website that provides a basic information for new upcomming customers. The target audiences for this website are students seeking a private accomodation in Manchester.
 
-1. Details of what to expext from us
-2. A map showing where the accomodation is situated
-3. A gallery of images of our accomodation we offer for our potential customer
-4. A form to send
-5. A basic information for students included our basic policy and terms of conditions
+<br />
 
-**DEMO** <br />
+**In order for the target audience to achieve these things when visiting my website, I incorporated the following:**
+
+* Details of what to expext from us
+* A map showing where the accomodation is situated
+* A gallery of images of our accomodation we offer for our potential customer
+* A form where you can contact us with your name, email and your request
+* A basic information for students included our basic policy and terms of conditions
+* Social media links for users to follow to stay up to date with any news the band may have
+
+## DEMO
 
 A demo of this site is available <a href="https://mirofrankovic.github.io/project-1/">here</a>
 
 This app is hosted by GitHub Pages, a static site hosting service which supports client-side code. It does not support server-side code in languages like PHP or Python.
 
-**GETTING STARTED / DEPLOYMENT** <br />
+## FEATURES
 
-<li>If you wish to run this site locally, please clone or download this repo. You can then run index.html or open index.html in your browser.</li>
-<li>If you wish to deploy a live version of this site, then you will need to create your own GitHub repo. Navigate to settings and enable GitHub Pages by setting the Source to master branch.
+[Home Page] (https://mirofrankovic.github.io/project-1/index.html)
 
-**TECHNOLOGIES USED** <br />
+* Carousel - this is a nice little display which allows user to view different pictures of the band when they visit the home page
+* Rounded Images - this feature will allow a user to click on the picture to get a closer view to another gallery page
+* Text in the middle - this feature replaces the button and allow a user to click on text to get a closer look about the founders and their contact address.
 
-<li>This project uses <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML5</a> and <a href="https://www.w3.org/Style/CSS/">CSS3</a>programming languages</li>
+[Gallery Page] (https://mirofrankovic.github.io/project-1/gallery.html)
+
+* Images - this feature will allow a user to click on the images to get a closer view 
+
+[About Us Page] (https://mirofrankovic.github.io/project-1/aboutus.html)
+
+* Profile pictures - this feature will allow a user to see the real profile pictures of people working for the company with their short profile
+* Transparent - we want to show that we are transparent and we offer quality and security for our customers
+
+[Our Location Page] (https://mirofrankovic.github.io/project-1/map.html)
+
+* Map - this feature displays a google map with current address. It also allows the users to click on the map and find a detailed location of our company
+* Form - this feature provides a form to the user in which they can contact us to get more information on booking the accomodation
+
+[Our Policy Page] (https://mirofrankovic.github.io/project-1/privacy.html)
+
+* Policy and Regulation - this feature will allow a user to see our terms and conditions
+
+[Our Info Page] (https://mirofrankovic.github.io/project-1/news.html)
+
+* Usefull Informations - this is a nice little display of usefull updated informations for students
+
+## All Pages
+
+* Social Media Links - this feature allows users to follow our company on Facebook, Twitter, LinkedIn
+
+# GETTING STARTED / DEPLOYMENT
+ <br />
+
+* If you wish to run this site locally, please clone or download this repo. You can then run index.html or open index.html in your browser.
+* If you wish to deploy a live version of this site, then you will need to create your own GitHub repo. Navigate to settings and enable GitHub Pages by setting the Source to master branch.
+
+# TECHNOLOGIES USED 
+<br />
+
+* This project uses [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) and [CSS3](https://www.w3.org/Style/CSS/) programming languages</li>
 
 <li><a href="https://aws.amazon.com/cloud9/">AWSCloud9</a> - this developer uses Cloud9 within an Ubuntu based workspace using a mobile firstapproach for their IDE while writting, running and debugging code</li>
 
