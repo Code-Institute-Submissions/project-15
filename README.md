@@ -1,6 +1,6 @@
 # VaniliaLemon | A Student House
 
-![alt-text](assets/img/snip-min.png "title image 1")
+![alt-text](https://github.com/mirofrankovic/project-1/blob/master/assets/img/snip-min.PNG "title image 1")
 
 ## UX
 
