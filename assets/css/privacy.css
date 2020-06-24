@@ -1,37 +1,31 @@
-
 html,body {
   width: 100%;
   font-family: 'Josefin Sans', sans-serif;
   margin-top: 52px;
   padding: 0;
- /* background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%); */
   background-color: rgba(238, 238, 248, 0.89);
   overflow-x:hidden;
 }
-
 .container-wrapper {
   background: url("../img/logo2-navbar-min.jpg") no-repeat center center;
   background-size: contain;
   background-attachment: fixed;  
 }
-
 .container {
   margin-bottom: 15px;
 }
-
 .text-uppercase {
-    font-family:proxima-nova, sans-serif !important;
-    font-style: normal;
-    font-size: 30px;
-    font-weight:400;
-    letter-spacing: 3px;
-    color: #231f20;
-    text-transform: uppercase;
-    line-height: 1.5em;
-    padding-top: 40px;
-    margin-top: 0px;
+  font-family:proxima-nova, sans-serif !important;
+  font-style: normal;
+  font-size: 30px;
+  font-weight:400;
+  letter-spacing: 3px;
+  color: #231f20;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  padding-top: 40px;
+  margin-top: 0px;
 }
-
 p {
   text-indent: 30px;
   padding-top: 20px;

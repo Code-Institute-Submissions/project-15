@@ -1,14 +1,11 @@
-
 html,body {
     width: 100%;
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 52px;
     padding: 0;
-   /* background-image: linear-gradient(260deg, #f3f1f3  0%,  #2376ae 100%); */
     background-color: rgba(238, 238, 248, 0.89);
     overflow-x:hidden; 
 }
-
 .text-uppercase {
     font-family:proxima-nova, sans-serif !important;
     font-style: normal;
@@ -21,8 +18,7 @@ html,body {
     padding-top: 40px;
     padding-bottom: 30px;   
 }
-
-.text-uppercase_1{
+.text-uppercase_1 {
     font-family:proxima-nova, sans-serif !important;
     font-style: normal;
     font-size: 30px;
@@ -35,35 +31,22 @@ html,body {
     margin-top: 0px;
     padding-bottom: 30px;
 }
-
 p {
     text-decoration: none;
     list-style: none;
     font-size: 20px;
     padding-top: 30px;       
 }
-
 .trans {
     opacity: 0.8;
 }
-
 a:hover {
     text-decoration: none;
 }
-
- a:visited {
+a:visited {
     color: rgb(231, 10, 59);
     text-shadow: #e9e519ed 0px 0px 2px;
 }
-
-/*
- 
-.blue-text-shadow {
-    text-shadow: blue 0px 0px 2px;
-}
-
-*/
-
 .row {
     padding-bottom: 20px;
 }
