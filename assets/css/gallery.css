@@ -49,7 +49,7 @@ html, body {
   background-size: cover; 
 }
 .thumbnail img {
-  height:250px;
+  height:auto; 
   width:100%;
 }
 .thumbnail img:hover {
@@ -59,20 +59,3 @@ html, body {
 .text-grey {
   color:  rgb(12, 11, 11);
 }
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
