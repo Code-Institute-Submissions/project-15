@@ -48,10 +48,24 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover; 
 }
-.thumbnail img {
-  height:auto; 
-  width:100%;
-}
+.thumbnail {
+  background-color: rgb(182, 182, 182);
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* 1:1 Aspect Ratio */
+  }
+  .thumbnail img {
+  /* height:auto;
+  width:100%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+  margin: auto;
+  width: 100%
+  }
 .thumbnail img:hover {
   transform: scale(1.1);
   transform: 1s;
