@@ -1,12 +1,5 @@
 
-html,body {
-  width: 100%;
-  font-family: 'Josefin Sans', sans-serif;
-  margin-top: 52px;
-  padding: 0;
-  overflow-x:hidden;
-     
-}
+
 #img_gal {
   width: 100%;
   min-height: 100vh; 
@@ -64,9 +57,7 @@ html,body {
   font-size: 50px; 
   padding-left: 5px;
 }
-.display-4 {
-  color:orangered;
-}
+
 .post-content {
   position: relative; 
   text-align: center;
@@ -120,22 +111,6 @@ html,body {
   background-repeat:no-repeat;
   background-size:100% auto;
   opacity:0.5;
-}
-.blue_button {
-  position: relative;
-  top: 0px;
-  right:30px;
-  bottom: 50px;
-  text-align: center;
-}
-.button {
-  background-color:  #2376ae;
-  padding: 15px 32px;
-  text-decoration: none;
-  margin: 4px 2px;  
-}
-.button a:hover{
-  text-decoration: none;
 }
 a:hover {
   text-decoration: none;

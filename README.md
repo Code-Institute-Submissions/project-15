@@ -113,9 +113,9 @@ Git used for the Version control and [GitHub](https://github.com/) used as hosti
 #### Manual testing was undertaken for this application and satisfactorily passed. A sample of the tests conducted are as follows:
 
 * I have thoroughly tested this website and was unable to find any broken links within it. I have also tried to submit blank contact forms and forms with incorrect email addresses which gave me an error message on each field to show that the required attribute within my form is working as it should
-* testing the code to call the google API and the ability to scroll, zoom and click on map marker for location details
-* testing buttons and hyperlinks throughout the site
-* responsive Testing The app was tested on Samsung S8, Apple iPhone 6, Apple iPad Air 2 and also using the Google Chrome inspect  feature to tes for repsonsiveness and any errors that occurred. The main issue which was found was the navbar and rounded images not resizing
+* Testing the code to call the google API and the ability to scroll, zoom and click on map marker for location details
+* Testing buttons and hyperlinks throughout the site
+* Responsive Testing The app was tested on Samsung S8, Apple iPhone 6, Apple iPad Air 2 and also using the Google Chrome inspect  feature to tes for repsonsiveness and any errors that occurred. The main issue which was found was the navbar and rounded images not resizing
 
 ## Issues/Bugs
 
@@ -139,14 +139,14 @@ Miroslav Frankovic - this project was completed as part of Code Institute's Web 
 
 # IMAGES
 
-* all images for my Project-1 I have downloaded from [Google](https://www.google.com/) 
-* the logo VaniliaLemon I have created using [Canva](https://www.canva.com/) 
+* All images for my Project-1 I have downloaded from [Google](https://www.google.com/) 
+* The logo VaniliaLemon I have created using [Canva](https://www.canva.com/) 
 
 # ACKNOWLEDGMENT
 
 * [Code Institute](https://codeinstitute.net/)
-* template by [Bootstrap](https://getbootstrap.com/) I used the carousel example to set up my carousel of pictures on the Home page
-* inspiration for this project came from my friend Emilia Li
+* Template by [Bootstrap](https://getbootstrap.com/) I used the carousel example to set up my carousel of pictures on the Home page
+* Inspiration for this project came from my friend Emilia Li
 * etc.
 
 # In conclusion
