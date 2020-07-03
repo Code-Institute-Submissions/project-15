@@ -187,11 +187,7 @@ li {
 .grey-text {
   color: rgb(12, 11, 11);
 }
-  
-
 /*-------------------- index.css -------------------------*/
-
-
 #img_gal {
   width: 100%;
   min-height: 100vh; 
@@ -208,9 +204,7 @@ li {
   opacity: .5; 
   background-image: url(../img/gallery2-min-min.jpg); 
 }
-
 #img_us {
-
   width: 100%;
   min-height: 100vh; 
   position: relative;
@@ -228,7 +222,6 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .rounded-circle {
   border-radius: 50%;
   height: 240px;
@@ -237,14 +230,12 @@ li {
   z-index: 2;
   bottom: 40px; 
 }
-
 .photo-heading {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 0 auto;
   color: green;
 }
-
 .gallery-heading {
   letter-spacing: 0.1em;
   margin: 0 auto;
@@ -253,7 +244,6 @@ li {
   font-size: 50px; 
   padding-left: 5px;
 }
-
 .post-content {
   position: relative; 
   text-align: center;
@@ -265,7 +255,6 @@ li {
   color: rgb(231, 10, 59);
   text-shadow: #e9e519ed 0px 0px 2px;
  }
-
  .post-content_gal {
   position: relative; 
   text-align: center;
@@ -284,9 +273,7 @@ li {
   text-shadow: red 0px 0px 3px;
   font-size: 2rem;
   color: orange;
-  /*min-height: 100vh; */
  }
-
  .post-content_1 {
   text-align: center;
   display: flex;
@@ -301,7 +288,6 @@ li {
   background-position: 50% 50%;
   background-repeat: no-repeat;
  }
-
  .img-fluid {
   top:0;
   left:0;
@@ -311,39 +297,25 @@ li {
   background-size:100% auto;
   opacity:0.5;
 }
-
 a:hover {
   text-decoration: none;
- }
-
-/*
- .row {
-  padding-bottom: 60px;
-  padding-top: 60px; 
 }
-
-*/
-
 .card-action {
   padding-bottom: 20px;
 } 
-
 .text-primary {
   padding-right: 25px;
   padding-left: 25px;
 }
-
 .text_left_right {
   padding-right: 25px;
   padding-left: 25px;
   color: rgb(39, 3, 3);
   text-shadow: rgb(214, 103, 109) 0px 0px 3px;
 }
-
 .image-resize {
   opacity: 0.5;
 }
-
 .color {
   color:black;
 }
@@ -351,62 +323,37 @@ a:hover {
   text-decoration: none;
   color: black;
 }
-
-
 @media screen and (min-width: 768px) and (max-width: 992px){
   .rounded-circle {
     width: 200px;
     height: 200px;
-   }
   }
-
-  
+}  
 img {
-  max-width: 100%;
-  
+  max-width: 100%;  
 }
-
 @media screen and (min-width: 375px) and (max-width: 667px){
 .rounded-circle {
-  justify-content: center;
-  
+  justify-content: center;  
  }
 }
-
-
 @media screen and (min-width: 375px) and (max-width: 667px){
   .post-content_gal {
-    padding-top: 0px;
-    
-   }
-  }
-
-  
+    padding-top: 0px;    
+ }
+}  
 @media screen and (min-width: 375px) and (max-width: 667px){
   .post-content_us {
     padding-top: 0px;
-    
-   }
-  }
-
-
-
-
-
+ }
+}
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-
 /*-------------gallery---------------------------*/
-
-
-
-
 #white_img {
   width: 100%;
   min-height: 100vh;    
 }
-
-
 #white_img::before {
   content: "";
   position: absolute;
@@ -418,7 +365,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .bg-img {
   display: inline-block;
   width: 100%;
@@ -428,20 +374,15 @@ img {
   background-position: 50% 50%;
   background-repeat: no-repeat;
  }
-
  .container-fluid {
   color:  rgb(12, 11, 11);
- /* padding-top: 20px;
-  padding-bottom: 30px; */
   letter-spacing: 3px;
   font-family: proxima-nova, sans-serif !important;
 } 
-
 .col-md-4 {
   margin-top: 0px;                    
   margin-left: 0px;
 }
-
 .img {
   width: 500px;
   height: 500px;
@@ -449,16 +390,13 @@ img {
   background-repeat: no-repeat;
   background-size: cover; 
 }
-
 .thumbnail {
   background-color: rgb(182, 182, 182);
   position: relative;
   width: 100%;
   padding-top: 75%;         /* 1:1 Aspect Ratio */
  }           
-   
-
-  .thumbnail img {
+.thumbnail img {
   position: absolute;
   top: 0;
   left: 0;
@@ -475,16 +413,11 @@ img {
 .text-grey {
   color:  rgb(12, 11, 11);
 }
-
-
 /*---------------about us------------------*/
-
-
 
 p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .text-uppercase_1 {
   font-family:proxima-nova, sans-serif !important;
   font-style: normal;
@@ -494,7 +427,6 @@ p {
   padding-top: 50px;
   padding-bottom: 30px; 
 }
-
 .text-uppercase {
   font-family:proxima-nova, sans-serif !important;
   font-style: normal;
@@ -506,18 +438,14 @@ p {
   line-height: 1.5em;
   padding-top: 15px;
 }
-
 .col-lg-12 {
   padding-top: 15px;
 }
-
 .about-content-container {
   padding-bottom: 15px;
 }
-
 .policy {
   padding-bottom: 25px;
- /* margin-top: 55px;*/
 }
 .vanilia {
   padding-bottom: 15px;
@@ -525,7 +453,6 @@ p {
 .offer {
   line-height: 1.3;
 }
-
 .rounded-circle {
   height: 200px;
   width: 200px;
@@ -534,14 +461,20 @@ p {
   bottom: 40px;
   padding-bottom: 10px;  
 } 
-
 .post-content_1 {
   text-align: center;
   display: flex;
   justify-content: center;
 }
-
-
+.post-content_second {
+  position: relative; 
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto;
+  text-shadow: red 0px 0px 3px;
+  font-size: 2rem;
+  color: orange;
+ }
 .nospace {
   font-size: 0;
   padding: 40px;
@@ -553,33 +486,23 @@ img {
   color: rgb(231, 10, 59);
   text-shadow: #e9e519ed 0px 0px 2px;
 }
-
-
 /*------------map.css-----------*/
-
-
 
 .container {
   margin-bottom: 15px;
 }
-
-
 .col-sm-12  {
   margin-top: 0px;
 }
-
-
 .text-center li {
   color: white;
   font-size: 25px;
   background-color: rgba(201, 76, 76, 0.5);
 }
-
 .form-group {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -588,7 +511,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 .text-uppercase {
   font-family:proxima-nova, sans-serif !important;
   font-style: normal;
@@ -598,11 +520,9 @@ img {
   color: rgb(12, 11, 11);
   line-height: 1.5em;
   padding-top: 50px;
- /* padding-right: 27px;*/
   padding-bottom: 30px;
   padding-right: 0px;
 }
-
 #map {
   margin-top: 20px;
   border-radius: 5px;   
@@ -634,22 +554,11 @@ img {
   color: rgb(231, 10, 59);
   text-shadow: #e9e519ed 0px 0px 3px;
 }
-
 /*----privacy.css----*/
-
-
-
-
-.container-wrapper {
-  background: url("../img/logo2-navbar-min.jpg") no-repeat center center;
-  background-size: contain;
-  background-attachment: fixed;  
-}
 
 .container {
   margin-bottom: 15px;
 }
-
 .text-uppercase {
   font-family:proxima-nova, sans-serif !important;
   font-style: normal;
@@ -662,15 +571,11 @@ img {
   padding-top: 40px;
   margin-top: 0px;
 }
-
 p {
   text-indent: 30px;
   padding-top: 20px;
 }
-
 /*-------------news.css----------------*/
-
-
 
 .text-uppercase {
   font-family:proxima-nova, sans-serif !important;
@@ -684,7 +589,6 @@ p {
   padding-top: 40px;
   padding-bottom: 30px;   
 }
-
 .text-uppercase_1 {
   font-family:proxima-nova, sans-serif !important;
   font-style: normal;
@@ -698,18 +602,14 @@ p {
   margin-top: 0px;
   padding-bottom: 30px;
 }
-
 p {
   text-decoration: none;
   list-style: none;
-  /*font-size: 20px;*/
   padding-top: 30px;       
 }
-
 .trans {
   opacity: 0.8;
 }
-
 a:hover {
   text-decoration: none;
 }
@@ -717,10 +617,89 @@ a {
   color: rgb(231, 10, 59);
   text-shadow: #e9e519ed 0px 0px 2px;
 }
-
-/*
-.row {
-  padding-bottom: 20px;
+/* CUSTOMIZE THE CAROUSEL-------------------------------------------------- */
+.carousel {
+  margin-bottom: 0rem;
+  height: 90vh;
 }
-*/
+.carousel img {
+  width:100% !important;
+  min-width:100 !important;
+  height: auto;
+}
+.carousel-inner {
+  height: 100%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  font-family: fantasy;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;  
+}
+.carousel-caption h1 {
+  color: rgb(58, 7, 51);
+}
+.carousel-caption h2 {
+  color:rgb(241, 14, 25);  
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 30rem;  /* space above and below image in carousel*/
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 100%;
+  height: 100%;  
+}
+.carousel-item > img {
+  padding-top: 0;
+  padding-bottom: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  width: 800px;
+  height: 90vh;
+  }
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.marketing {
+  display: block;
+}
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 200;
+  line-height: 2;
+  letter-spacing: -.05rem;
+  color:rgb(240, 68, 15);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content  text*/
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 40px;
+  }
+}
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
 
