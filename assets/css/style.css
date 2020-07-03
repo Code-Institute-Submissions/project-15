@@ -269,7 +269,7 @@ li {
  .post-content_gal {
   position: relative; 
   text-align: center;
- 
+  padding-top: 130px;
   margin: 0 auto;
   font-size: 2rem;
   min-height: 100vh;
@@ -279,7 +279,7 @@ li {
  .post-content_us {
   position: relative; 
   text-align: center;
-  /*top: 5rem; */
+  padding-top: 130px;
   margin: 0 auto;
   text-shadow: red 0px 0px 3px;
   font-size: 2rem;
@@ -316,11 +316,13 @@ a:hover {
   text-decoration: none;
  }
 
-
+/*
  .row {
   padding-bottom: 60px;
   padding-top: 60px; 
 }
+
+*/
 
 .card-action {
   padding-bottom: 20px;
@@ -370,6 +372,27 @@ img {
   
  }
 }
+
+
+@media screen and (min-width: 375px) and (max-width: 667px){
+  .post-content_gal {
+    padding-top: 0px;
+    
+   }
+  }
+
+  
+@media screen and (min-width: 375px) and (max-width: 667px){
+  .post-content_us {
+    padding-top: 0px;
+    
+   }
+  }
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 
@@ -540,9 +563,6 @@ img {
   margin-bottom: 15px;
 }
 
-.col {
-  flex-grow: 0.5;
-}
 
 .col-sm-12  {
   margin-top: 0px;
@@ -578,8 +598,9 @@ img {
   color: rgb(12, 11, 11);
   line-height: 1.5em;
   padding-top: 50px;
-  padding-right: 27px;
+ /* padding-right: 27px;*/
   padding-bottom: 30px;
+  padding-right: 0px;
 }
 
 #map {
@@ -697,7 +718,9 @@ a {
   text-shadow: #e9e519ed 0px 0px 2px;
 }
 
+/*
 .row {
   padding-bottom: 20px;
 }
+*/
 
