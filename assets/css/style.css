@@ -360,7 +360,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
  .container-fluid {
   color:  rgb(12, 11, 11);
   letter-spacing: 3px;
@@ -510,12 +509,8 @@ img {
 }
 /*--------------------------Privacy--------------------------*/
 
-.container {
-  margin-bottom: 15px;
-}
 p {
   text-indent: 30px;
-  padding-top: 20px;
 }
 /*-------------------------------News-----------------------*/
 
@@ -635,7 +630,3 @@ a {
     margin-top: 7rem;
   }
 }
-
-
-
-
